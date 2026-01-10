@@ -24,6 +24,11 @@
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Dark Theme",
 				"path": "./themes/abacatepay-theme-dark.json"
+			},
+			{
+				"uiTheme": "vs",
+				"label": "AbacatePay Light Theme",
+				"path": "./themes/abacatepay-theme-light.json"
 			}
 		]
 	},

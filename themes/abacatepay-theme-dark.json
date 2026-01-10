@@ -130,7 +130,11 @@
 			}
 		},
 		{
-			"scope": ["entity.name.function", "support.function", "variable.function"],
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"variable.function"
+			],
 			"settings": {
 				"foreground": "#D4A373"
 			}
