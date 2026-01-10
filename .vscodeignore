@@ -1,23 +1,16 @@
-node_modules/**
-.git*
-.vscode/**
-dist/**
-src/**
-*.ts
-*.map
+**/*
 
-assets/raw/**
-assets/*.psd
-assets/*.fig
+!package.json
+!README.md
+!readme.md
+!LICENSE
+!LICENSE.md
+!icon.png
 
-coverage/**
-tests/**
-__tests__/**
+!themes/**
+!themes/*.json
 
-colors
-intellij
-lua
-LICENSE
-bun.lock
-index.ts
-biome*
+!assets/**
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
