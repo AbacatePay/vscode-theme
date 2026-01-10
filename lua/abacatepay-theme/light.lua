@@ -78,6 +78,9 @@ function M.setup()
 	h("Delimiter", { fg = M.palette.fg })
 	h("@tag.delimiter", { fg = M.palette.fg })
 
+	h("CmpItemKindFolder", { fg = M.palette.seed_brown })
+	h("CmpItemKindFile", { fg = M.palette.fg })
+
 	h("Directory", { fg = M.palette.seed_brown })
 	h("MoreMsg", { fg = M.palette.seed_brown })
 	h("Question", { fg = M.palette.seed_brown })
