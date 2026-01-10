@@ -80,36 +80,16 @@
     },
     {
       "scope": [
-        "variable.other.constant",
-        "constant.language",
-        "constant.numeric",
-        "constant.character"
-      ],
-      "settings": {
-        "foreground": "#2F4F4F"
-      }
-    },
-    {
-      "scope": [
         "keyword",
-        "keyword.control",
         "keyword.operator.new",
         "keyword.operator.expression",
         "keyword.operator.logical",
         "keyword.declaration",
         "keyword.function",
-        "punctuation.accessor"
-      ],
-      "settings": {
-        "foreground": "#556B2F"
-      }
-    },
-    {
-      "scope": [
+        "punctuation.accessor",
         "storage.type",
         "storage.modifier",
         "storage.type.function",
-        "keyword.declaration",
         "keyword.declaration.function",
         "storage.type.class",
         "storage.type.struct",
@@ -127,6 +107,21 @@
     },
     {
       "scope": [
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.repeat",
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.export",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#4C7A2E"
+      }
+    },
+    {
+      "scope": [
         "string",
         "punctuation.definition.string",
         "string.template"
@@ -139,7 +134,8 @@
       "scope": [
         "entity.name.function",
         "support.function",
-        "variable.function"
+        "variable.function",
+        "entity.name.method"
       ],
       "settings": {
         "foreground": "#A0522D"
@@ -161,6 +157,20 @@
       ],
       "settings": {
         "foreground": "#B58900"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other",
+        "variable.other.constant",
+        "number",
+        "boolean"
+      ],
+      "settings": {
+        "foreground": "#2F4F4F"
       }
     },
     {
