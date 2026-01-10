@@ -2,7 +2,7 @@
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
 	"description": "A gree-first theme based for AbacatePay.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "abacatepay",
 	"engines": {
 		"vscode": "^1.50.0"
