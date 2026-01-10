@@ -1,0 +1,22 @@
+{
+  "name": "abacatepay-theme",
+  "displayName": "AbacatePay Theme",
+  "description": "Um tema minimalista com a paleta de cores da AbacatePay.",
+  "version": "0.1.0",
+  "publisher": "abacatepay",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AbacatePay Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abacatepay-theme-dark.json"
+      }
+    ]
+  }
+}

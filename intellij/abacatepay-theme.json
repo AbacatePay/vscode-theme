@@ -1,0 +1,22 @@
+{
+  "name": "AbacatePay Theme",
+  "dark": true,
+  "author": "AbacatePay",
+  "editorScheme": "/themes/abacatepay-theme.xml",
+  "colors": {
+    "primaryBackground": "#121217",
+    "secondaryBackground": "#204749",
+    "foreground": "#E2E7F1",
+    "accentColor": "#9EEA6C"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryBackground",
+      "foreground": "foreground",
+      "selectionBackground": "#486869",
+      "selectionForeground": "#9EEA6C",
+      "borderColor": "#204749",
+      "focusedBorderColor": "accentColor"
+    }
+  }
+}
