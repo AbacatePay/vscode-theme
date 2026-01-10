@@ -1,7 +1,7 @@
 {
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
-	"description": "Um tema minimalista com a paleta de cores da AbacatePay.",
+	"description": "A gree-first theme based for AbacatePay.",
 	"version": "0.1.0",
 	"publisher": "abacatepay",
 	"engines": {
@@ -13,8 +13,8 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "AbacatePay Theme",
 				"uiTheme": "vs-dark",
+				"label": "AbacatePay Dark Theme",
 				"path": "./themes/abacatepay-theme-dark.json"
 			}
 		]
@@ -31,5 +31,9 @@
 	},
 	"scripts": {
 		"biome:check": "bunx biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/almeidazs/abacatepay-theme"
 	}
 }
