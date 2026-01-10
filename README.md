@@ -18,7 +18,7 @@
   <sub>
     <samp>
       Font · <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a><br/>
-      Theme · AbacatePay Dark
+      Theme · <a href="https://marketplace.visualstudio.com/items?itemName=abacatepay.abacatepay-theme">AbacatePay Dark Theme</a>
     </samp>
   </sub>
 </p>
