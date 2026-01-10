@@ -1,6 +1,6 @@
-<h1 align="center">AbacatePay Theme for VS Code 🥑</h1>
+<h1 align="center">AbacatePay Theme 🥑</h1>
 
-<p align="center">A green-first based theme for AbacatePay</p>
+<p align="center">A green-first based theme for AbacatePay, available for your favorite editors.</p>
 
 <p align="center">
   <img
@@ -18,21 +18,22 @@
   <sub>
     <samp>
       Font · <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a><br/>
+<<<<<<< Updated upstream
       Theme · AbacatePay Dark
+=======
+>>>>>>> Stashed changes
     </samp>
   </sub>
 </p>
 
-<h2 align="center">Match the Theme with your System</h2>
+## 🚀 Getting Started
 
-In your .vscode/settings.json put the following code
+Select your editor to view installation and configuration instructions:
 
-```jsonc
-{
-    "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "AbacatePay Theme Dark",
-    "workbench.preferredLightColorTheme": "AbacatePay Theme Light",
-}
-```
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="40" height="40" alt="VS Code"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" width="40" height="40" alt="Neovim"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="40" height="40" alt="IntelliJ"/> |
+| :---: | :---: | :---: |
+| **[VS Code](docs/VSCODE.md)** | **[Neovim](docs/NEOVIM.md)** | **[IntelliJ](docs/INTELLIJ.md)** |
+
+<br/>
 
 <p align="center">Thanks 💚</p>
