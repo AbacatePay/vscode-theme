@@ -7,10 +7,17 @@ M.palette = {
 	light_green = "#D9F2C7",
 	olive = "#7A916E",
 	yellow = "#FAF4C8",
+	function_brown = "#D4A373",
+	function_brown_2 = "#8B5A2B",
 	teal = "#3D5F61",
 	gray = "#94A3B8",
 	selection = "#263238",
 	seed_brown = "#BFA58A",
+	-- Diagnostics
+	error = "#E67E22",
+	warn = "#F1E48E",
+	info = "#C6EF9D",
+	hint = "#94A3B8",
 }
 
 function M.setup()
@@ -44,11 +51,11 @@ function M.setup()
 	h("@keyword.control", { fg = M.palette.green, bold = true })
 	h("@keyword.return", { fg = M.palette.green, bold = true })
 
-	h("Function", { fg = M.palette.fg })
-	h("@function", { fg = M.palette.fg })
-	h("@method", { fg = M.palette.fg })
-	h("@function.call", { fg = M.palette.fg })
-	h("@method.call", { fg = M.palette.fg })
+	h("Function", { fg = M.palette.function_brown })
+	h("@function", { fg = M.palette.function_brown })
+	h("@method", { fg = M.palette.function_brown })
+	h("@function.call", { fg = M.palette.function_brown })
+	h("@method.call", { fg = M.palette.function_brown })
 
 	h("Type", { fg = M.palette.yellow })
 	h("@type", { fg = M.palette.yellow })
@@ -59,15 +66,31 @@ function M.setup()
 	h("Boolean", { fg = M.palette.olive })
 	h("@variable", { fg = M.palette.light_green })
 
-	h("Comment", { fg = M.palette.gray, italic = true })
-	h("Operator", { fg = M.palette.green })
-	h("Delimiter", { fg = M.palette.gray })
+	h("DiagnosticError", { fg = M.palette.error })
+	h("DiagnosticWarn", { fg = M.palette.warn })
+	h("DiagnosticInfo", { fg = M.palette.info })
+	h("DiagnosticHint", { fg = M.palette.hint })
+	h("DiagnosticUnderlineError", { undercurl = true, sp = M.palette.error })
+
+	h("GitSignsAdd", { fg = M.palette.green })
+	h("GitSignsChange", { fg = M.palette.yellow })
+	h("GitSignsDelete", { fg = M.palette.error })
 
 	h("LineNr", { fg = "#2C3133" })
 	h("CursorLineNr", { fg = M.palette.green, bold = true })
 	h("Visual", { bg = M.palette.selection })
 	h("CursorLine", { bg = "#161819" })
+	h("StatusLine", { fg = M.palette.fg, bg = "#161819" })
+	h("StatusLineNC", { fg = M.palette.gray, bg = M.palette.bg })
+	h("VertSplit", { fg = "#1B1B22" })
+
+	h("TelescopeBorder", { fg = "#1B1B22", bg = M.palette.bg })
+	h("TelescopeNormal", { bg = M.palette.bg })
+	h("TelescopeSelection", { bg = M.palette.selection })
+
+	h("CmpItemAbbrMatch", { fg = M.palette.green, bold = true })
+	h("CmpItemKindFunction", { fg = M.palette.function_brown_2 })
+	h("CmpItemKindKeyword", { fg = M.palette.green })
 end
 
 return M
-
