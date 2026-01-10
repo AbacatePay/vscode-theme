@@ -99,8 +99,7 @@
 				"punctuation.accessor"
 			],
 			"settings": {
-				"foreground": "#7A916E",
-				"fontStyle": "bold"
+				"foreground": "#7A916E"
 			}
 		},
 		{
@@ -121,8 +120,7 @@
 				"variable.other.constant.package"
 			],
 			"settings": {
-				"foreground": "#7A916E",
-				"fontStyle": "bold"
+				"foreground": "#7A916E"
 			}
 		},
 		{
@@ -175,8 +173,7 @@
 		{
 			"scope": ["markup.heading"],
 			"settings": {
-				"foreground": "#C6EF9D",
-				"fontStyle": "bold"
+				"foreground": "#C6EF9D"
 			}
 		},
 		{
