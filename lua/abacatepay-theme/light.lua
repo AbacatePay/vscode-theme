@@ -88,6 +88,26 @@ function M.setup()
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.seed_brown })
 
+	-- Dashboard / Alpha
+	h("AlphaHeader", { fg = M.palette.green })
+	h("AlphaButtons", { fg = M.palette.green })
+	h("AlphaShortcut", { fg = M.palette.yellow })
+	h("DashboardHeader", { fg = M.palette.green })
+	h("DashboardCenter", { fg = M.palette.green })
+	h("DashboardShortcut", { fg = M.palette.yellow })
+	h("DashboardFooter", { fg = M.palette.olive })
+
+	h("SnacksDashboardHeader", { fg = M.palette.green })
+	h("SnacksDashboardIcon", { fg = M.palette.green })
+	h("SnacksDashboardKey", { fg = M.palette.yellow })
+	h("SnacksDashboardDesc", { fg = M.palette.green })
+	h("SnacksDashboardDir", { fg = M.palette.seed_brown })
+	h("SnacksDashboardFile", { fg = M.palette.fg })
+	h("SnacksDashboardSpecial", { fg = M.palette.green })
+
+	h("Label", { fg = M.palette.green })
+	h("SpecialKey", { fg = M.palette.green })
+
 	if package.loaded["lualine"] then
 		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
 	end

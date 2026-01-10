@@ -13,7 +13,6 @@ M.palette = {
 	gray = "#94A3B8",
 	selection = "#263238",
 	seed_brown = "#BFA58A",
-	-- Diagnostics
 	error = "#E67E22",
 	warn = "#F1E48E",
 	info = "#C6EF9D",
@@ -26,7 +25,8 @@ function M.setup()
 		vim.cmd("syntax reset")
 	end
 	vim.o.termguicolors = true
-	vim.g.colors_name = "abacatepay-theme"
+	vim.o.background = "dark"
+	vim.g.colors_name = "abacatepay-theme" -- Kept generic for init.lua
 
 	local h = function(group, settings)
 		vim.api.nvim_set_hl(0, group, settings)
@@ -36,13 +36,13 @@ function M.setup()
 	h("NormalFloat", { fg = M.palette.fg, bg = "#161819" })
 	h("Identifier", { fg = M.palette.light_green })
 
-	h("Keyword", { fg = M.palette.olive, bold = true })
-	h("StorageClass", { fg = M.palette.olive, bold = true })
-	h("Structure", { fg = M.palette.olive, bold = true })
+	h("Keyword", { fg = M.palette.olive })
+	h("StorageClass", { fg = M.palette.olive })
+	h("Structure", { fg = M.palette.olive })
 	h("PreProc", { fg = M.palette.olive })
 	h("Include", { fg = M.palette.olive })
-	h("@keyword", { fg = M.palette.olive, bold = true })
-	h("@keyword.function", { fg = M.palette.olive, bold = true })
+	h("@keyword", { fg = M.palette.olive })
+	h("@keyword.function", { fg = M.palette.olive })
 	h("@module", { fg = M.palette.olive })
 
 	h("Conditional", { fg = M.palette.green, bold = true })
@@ -91,6 +91,53 @@ function M.setup()
 	h("CmpItemAbbrMatch", { fg = M.palette.green, bold = true })
 	h("CmpItemKindFunction", { fg = M.palette.function_brown_2 })
 	h("CmpItemKindKeyword", { fg = M.palette.green })
+	h("CmpItemKindFolder", { fg = M.palette.seed_brown })
+	h("CmpItemKindFile", { fg = M.palette.fg })
+
+	h("Special", { fg = M.palette.seed_brown })
+	h("Underlined", { fg = M.palette.seed_brown, underline = true })
+	h("MatchParen", { bg = M.palette.selection, fg = M.palette.yellow, bold = true })
+	h("WildMenu", { bg = M.palette.selection, fg = M.palette.fg })
+	h("Pmenu", { bg = "#161819", fg = M.palette.fg })
+	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
+	h("PmenuThumb", { bg = M.palette.gray })
+
+	h("Directory", { fg = M.palette.seed_brown })
+	h("MoreMsg", { fg = M.palette.seed_brown })
+	h("Question", { fg = M.palette.seed_brown })
+	h("Title", { fg = M.palette.seed_brown })
+	h("MsgArea", { fg = M.palette.fg })
+	h("ModeMsg", { fg = M.palette.seed_brown })
+
+	-- Punctuation / Brackets
+	h("@punctuation.bracket", { fg = M.palette.fg })
+	h("@punctuation.delimiter", { fg = M.palette.fg })
+	h("Delimiter", { fg = M.palette.fg })
+	h("@tag.delimiter", { fg = M.palette.fg })
+
+	-- Dashboard / Alpha
+	h("AlphaHeader", { fg = M.palette.green })
+	h("AlphaButtons", { fg = M.palette.green })
+	h("AlphaShortcut", { fg = M.palette.orange or M.palette.yellow })
+	h("DashboardHeader", { fg = M.palette.green })
+	h("DashboardCenter", { fg = M.palette.green })
+	h("DashboardShortcut", { fg = M.palette.yellow })
+	h("DashboardFooter", { fg = M.palette.olive })
+
+	h("SnacksDashboardHeader", { fg = M.palette.green })
+	h("SnacksDashboardIcon", { fg = M.palette.green })
+	h("SnacksDashboardKey", { fg = M.palette.yellow })
+	h("SnacksDashboardDesc", { fg = M.palette.green })
+	h("SnacksDashboardDir", { fg = M.palette.seed_brown })
+	h("SnacksDashboardFile", { fg = M.palette.fg })
+	h("SnacksDashboardSpecial", { fg = M.palette.green })
+
+	h("Label", { fg = M.palette.green })
+	h("SpecialKey", { fg = M.palette.green })
+
+	if package.loaded["lualine"] then
+		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
+	end
 end
 
 return M
