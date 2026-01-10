@@ -64,6 +64,30 @@ function M.setup()
 	h("Visual", { bg = M.palette.selection })
 	h("CursorLine", { bg = "#F0F0EF" })
 	h("Search", { bg = "#FFE4B5", fg = M.palette.fg })
+
+	h("Special", { fg = M.palette.seed_brown })
+	h("Underlined", { fg = M.palette.seed_brown, underline = true })
+	h("MatchParen", { bg = M.palette.selection, fg = M.palette.yellow, bold = true })
+	h("WildMenu", { bg = M.palette.selection, fg = M.palette.fg })
+	h("Pmenu", { bg = "#F0F0EF", fg = M.palette.fg })
+	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
+	h("PmenuThumb", { bg = M.palette.gray })
+
+	h("@punctuation.bracket", { fg = M.palette.fg })
+	h("@punctuation.delimiter", { fg = M.palette.fg })
+	h("Delimiter", { fg = M.palette.fg })
+	h("@tag.delimiter", { fg = M.palette.fg })
+
+	h("Directory", { fg = M.palette.seed_brown })
+	h("MoreMsg", { fg = M.palette.seed_brown })
+	h("Question", { fg = M.palette.seed_brown })
+	h("Title", { fg = M.palette.seed_brown })
+	h("MsgArea", { fg = M.palette.fg })
+	h("ModeMsg", { fg = M.palette.seed_brown })
+
+	if package.loaded["lualine"] then
+		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
+	end
 end
 
 return M

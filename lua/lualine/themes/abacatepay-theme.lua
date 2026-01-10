@@ -8,7 +8,7 @@ local dark_palette = {
 	brown = "#D4A373",
 	error = "#E67E22",
 	selection = "#263238",
-	active_bg = "#161819",
+	gray = "#94A3B8",
 }
 
 local light_palette = {
@@ -21,7 +21,7 @@ local light_palette = {
 	brown = "#A0522D",
 	error = "#B22222",
 	selection = "#E5E5E1",
-	active_bg = "#F0F0EF",
+	gray = "#708090",
 }
 
 local function get_theme()
@@ -30,24 +30,28 @@ local function get_theme()
 	return {
 		normal = {
 			a = { bg = p.green, fg = p.bg, gui = "bold" },
-			b = { bg = p.selection, fg = p.fg },
+			b = { bg = p.selection, fg = p.green },
 			c = { bg = p.bg, fg = p.fg },
 		},
 		insert = {
 			a = { bg = p.yellow, fg = p.bg, gui = "bold" },
-			b = { bg = p.selection, fg = p.fg },
+			b = { bg = p.selection, fg = p.yellow },
+			c = { bg = p.bg, fg = p.fg },
 		},
 		visual = {
-			a = { bg = p.teal, fg = "#ECF0F1", gui = "bold" }, -- Always light text on teal for contrast
-			b = { bg = p.selection, fg = p.fg },
+			a = { bg = p.teal, fg = "#ECF0F1", gui = "bold" },
+			b = { bg = p.selection, fg = p.teal },
+			c = { bg = p.bg, fg = p.fg },
 		},
 		replace = {
 			a = { bg = p.error, fg = "#ECF0F1", gui = "bold" },
-			b = { bg = p.selection, fg = p.fg },
+			b = { bg = p.selection, fg = p.error },
+			c = { bg = p.bg, fg = p.fg },
 		},
 		command = {
 			a = { bg = p.brown, fg = p.bg, gui = "bold" },
-			b = { bg = p.selection, fg = p.fg },
+			b = { bg = p.selection, fg = p.brown },
+			c = { bg = p.bg, fg = p.fg },
 		},
 		inactive = {
 			a = { bg = p.bg, fg = p.gray, gui = "bold" },

@@ -13,7 +13,6 @@ M.palette = {
 	gray = "#94A3B8",
 	selection = "#263238",
 	seed_brown = "#BFA58A",
-	-- Diagnostics
 	error = "#E67E22",
 	warn = "#F1E48E",
 	info = "#C6EF9D",
@@ -92,6 +91,27 @@ function M.setup()
 	h("CmpItemAbbrMatch", { fg = M.palette.green, bold = true })
 	h("CmpItemKindFunction", { fg = M.palette.function_brown_2 })
 	h("CmpItemKindKeyword", { fg = M.palette.green })
+	h("CmpItemKindFolder", { fg = M.palette.seed_brown })
+	h("CmpItemKindFile", { fg = M.palette.fg })
+
+	h("Special", { fg = M.palette.seed_brown })
+	h("Underlined", { fg = M.palette.seed_brown, underline = true })
+	h("MatchParen", { bg = M.palette.selection, fg = M.palette.yellow, bold = true })
+	h("WildMenu", { bg = M.palette.selection, fg = M.palette.fg })
+	h("Pmenu", { bg = "#161819", fg = M.palette.fg })
+	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
+	h("PmenuThumb", { bg = M.palette.gray })
+
+	h("Directory", { fg = M.palette.seed_brown })
+	h("MoreMsg", { fg = M.palette.seed_brown })
+	h("Question", { fg = M.palette.seed_brown })
+	h("Title", { fg = M.palette.seed_brown })
+	h("MsgArea", { fg = M.palette.fg })
+	h("ModeMsg", { fg = M.palette.seed_brown })
+
+	if package.loaded["lualine"] then
+		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
+	end
 end
 
 return M
