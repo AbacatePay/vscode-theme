@@ -10,6 +10,14 @@
 	"categories": [
 		"Themes"
 	],
+	"configurationDefaults": {
+		"[abacatepay-theme-dark]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay-theme-light]": {
+			"editor.bracketPairColorization.enabled": false
+		}
+	},
 	"contributes": {
 		"themes": [
 			{
