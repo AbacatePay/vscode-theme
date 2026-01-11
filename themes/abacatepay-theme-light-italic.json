@@ -236,10 +236,7 @@
 		},
 		{
 			"name": "JSX/TSX Components",
-			"scope": [
-				"entity.name.tag",
-				"support.class.component"
-			],
+			"scope": ["entity.name.tag", "support.class.component"],
 			"settings": {
 				"foreground": "#B58900",
 				"fontStyle": "italic"
