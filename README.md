@@ -1,6 +1,6 @@
 <h1 align="center">AbacatePay Theme 🥑</h1>
 
-<p align="center">A green-first based theme for AbacatePay, available for your favorite editors.</p>
+<p align="center">A green-first theme crafted for AbacatePay and modern development workflows.</p>
 
 <p align="center">
   <img
@@ -23,13 +23,37 @@
   </sub>
 </p>
 
-## 🚀 Getting Started
+<h2 align="center">Match the Theme with your System</h2>
 
-Select your editor to view installation and configuration instructions:
+<p align="center">To match the theme with your system (auto-switching between light and dark modes), add the following configuration to your `.vscode/settings.json`</p>
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="40" height="40" alt="VS Code"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" width="40" height="40" alt="Neovim"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="40" height="40" alt="IntelliJ"/> |
-| :---: | :---: | :---: |
-| **[VS Code](docs/VSCODE.md)** | **[Neovim](docs/NEOVIM.md)** | **[IntelliJ](docs/INTELLIJ.md)** |
+```jsonc
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "AbacatePay Theme Dark",
+    "workbench.preferredLightColorTheme": "AbacatePay Theme Light",
+}
+```
+
+<h2 align="center">Use in your favorite editors</h2>
+
+<p align="center">Select your favorite editor to view the instructions and start using AbacatePay Theme.</p>
+
+<p align="center">
+  <a href="docs/NEOVIM.md">
+    <img src="assets/icons/nvim.png" width="44" alt="Neovim" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="docs/INTELLIJ.md">
+    <img src="assets/icons/intellij.png" width="44" alt="IntelliJ" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="docs/NEOVIM.md"><b>Neovim</b></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="docs/INTELLIJ.md"><b>IntelliJ</b></a>
+</p>
 
 <br/>
 
