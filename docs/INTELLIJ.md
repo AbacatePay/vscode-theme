@@ -1,14 +1,23 @@
-# AbacatePay Theme for IntelliJ
+<h1 align="center">AbacatePay Theme for IntelliJ</h1>
 
-## Installation
+<p align="center">
+Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
+</p>
 
-1. Navigate to the `intellij/` folder in this repository.
-2. Locate the theme files:
-   - `abacatepay-theme-dark.json`
-   - `abacatepay-theme-light.json`
-3. Open your IntelliJ IDE.
-4. Go to **Settings/Preferences** > **Editor** > **Color Scheme**.
-5. Click the **Gear Icon** (⚙️) next to the Scheme dropdown.
-6. Select **Import Scheme** > **IntelliJ IDEA color scheme (.icls) or JSON (.json)**.
-7. Select the desired `.json` file from the `intellij/` folder.
-8. Click **Apply** and **OK**.
+<h2 align="center">Installation</h2>
+
+1. Open your IntelliJ IDE.
+2. Go to **Settings / Preferences** → **Editor** → **Color Scheme**.
+3. Click the **⚙️ Gear icon** next to the scheme selector.
+4. Choose **Import Scheme** → **IntelliJ color scheme (.icls) or JSON (.json)**.
+5. From this repository, select one of the following files:
+   - `intellij/abacatepay-theme-dark.json`
+   - `intellij/abacatepay-theme-light.json`
+6. Click **Apply**, then **OK**.
+
+---
+
+## Notes
+
+- Tested on IntelliJ IDEA (should work on other JetBrains IDEs).
+- No plugin installation required.
