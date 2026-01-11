@@ -11,10 +11,13 @@
 		"Themes"
 	],
 	"configurationDefaults": {
-		"[abacatepay-theme-dark]": {
+		"[abacatepay dark theme]": {
 			"editor.bracketPairColorization.enabled": false
 		},
-		"[abacatepay-theme-light]": {
+		"[abacatepay dark italic theme]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay light theme]": {
 			"editor.bracketPairColorization.enabled": false
 		}
 	},
@@ -29,6 +32,11 @@
 				"uiTheme": "vs",
 				"label": "AbacatePay Light Theme",
 				"path": "./themes/abacatepay-theme-light.json"
+			},
+			{
+				"uiTheme": "vs-dark",
+				"label": "AbacatePay Dark Italic Theme",
+				"path": "./themes/abacatepay-theme-dark-italic.json"
 			}
 		]
 	},
