@@ -263,13 +263,23 @@
 		{
 			"name": "HTML/XML Tags",
 			"scope": [
-				"entity.name.tag",
-				"punctuation.definition.tag",
-				"meta.tag.any",
-				"meta.tag.sgml"
+				"entity.name.tag.html",
+				"entity.name.tag.xml",
+				"entity.name.tag.builtin",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#C6EF9D"
+			}
+		},
+		{
+			"name": "JSX/TSX Components",
+			"scope": [
+				"entity.name.tag",
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#FAF4C8"
 			}
 		},
 		{

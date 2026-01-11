@@ -278,12 +278,23 @@
 		{
 			"name": "HTML Tags",
 			"scope": [
-				"entity.name.tag",
-				"punctuation.definition.tag",
-				"meta.tag.any"
+				"entity.name.tag.html",
+				"entity.name.tag.xml",
+				"entity.name.tag.builtin",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#4C7A2E"
+			}
+		},
+		{
+			"name": "JSX/TSX Components",
+			"scope": [
+				"entity.name.tag",
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#B58900"
 			}
 		},
 		{

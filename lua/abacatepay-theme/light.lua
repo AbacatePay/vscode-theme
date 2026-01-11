@@ -111,12 +111,26 @@ function M.setup()
 	h("htmlArg", { fg = M.palette.olive })
 	h("htmlEndTag", { fg = M.palette.green })
 	h("htmlString", { fg = M.palette.seed_brown })
-	h("@tag", { fg = M.palette.green })
+	h("@tag", { fg = M.palette.yellow })
 	h("@tag.builtin", { fg = M.palette.green })
 	h("@tag.attribute", { fg = M.palette.olive })
-	h("@tag.delimiter", { fg = M.palette.green })
+	h("@tag.delimiter", { fg = M.palette.gray })
+	h("@constructor", { fg = M.palette.yellow })
+	h("@property", { fg = M.palette.olive })
+	h("@variable.member", { fg = M.palette.olive })
 	h("@punctuation.definition.string.begin.html", { fg = M.palette.seed_brown })
 	h("@punctuation.definition.string.end.html", { fg = M.palette.seed_brown })
+
+	h("@lsp.type.class", { fg = M.palette.yellow })
+	h("@lsp.type.interface", { fg = M.palette.yellow })
+	h("@lsp.type.type", { fg = M.palette.yellow })
+	h("@lsp.type.parameter", { fg = M.palette.light_green })
+	h("@lsp.type.property", { fg = M.palette.olive })
+	h("@lsp.type.enumMember", { fg = M.palette.olive })
+	h("@lsp.type.function", { fg = M.palette.function_brown })
+	h("@lsp.type.method", { fg = M.palette.function_brown })
+	h("@lsp.type.variable", { fg = M.palette.light_green })
+	h("@lsp.type.keyword", { fg = M.palette.olive })
 
 	h("markdownHeadingDelimiter", { fg = M.palette.green, bold = true })
 	h("markdownCode", { fg = M.palette.yellow })
@@ -154,4 +168,3 @@ function M.setup()
 end
 
 return M
-
