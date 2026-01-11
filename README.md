@@ -18,10 +18,7 @@
   <sub>
     <samp>
       Font · <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a><br/>
-<<<<<<< Updated upstream
       Theme · AbacatePay Dark
-=======
->>>>>>> Stashed changes
     </samp>
   </sub>
 </p>
