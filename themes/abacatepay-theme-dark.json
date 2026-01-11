@@ -39,7 +39,25 @@
 		"editorIndentGuide.activeBackground1": "#C6EF9D",
 		"titleBar.activeBackground": "#101213",
 		"titleBar.activeForeground": "#C6EF9D",
-		"titleBar.border": "#1B1B22"
+		"titleBar.border": "#1B1B22",
+		"terminal.background": "#101213",
+		"terminal.foreground": "#ECF0F1",
+		"terminal.ansiBlack": "#101213",
+		"terminal.ansiBlue": "#7A916E",
+		"terminal.ansiCyan": "#3D5F61",
+		"terminal.ansiGreen": "#C6EF9D",
+		"terminal.ansiMagenta": "#D4A373",
+		"terminal.ansiRed": "#E67E22",
+		"terminal.ansiWhite": "#ECF0F1",
+		"terminal.ansiYellow": "#FAF4C8",
+		"terminal.ansiBrightBlack": "#94A3B8",
+		"terminal.ansiBrightBlue": "#7A916E",
+		"terminal.ansiBrightCyan": "#3D5F61",
+		"terminal.ansiBrightGreen": "#D9F2C7",
+		"terminal.ansiBrightMagenta": "#D4A373",
+		"terminal.ansiBrightRed": "#E67E22",
+		"terminal.ansiBrightWhite": "#ECF0F1",
+		"terminal.ansiBrightYellow": "#FAF4C8"
 	},
 	"tokenColors": [
 		{
