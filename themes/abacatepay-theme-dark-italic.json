@@ -144,13 +144,13 @@
 				"fontStyle": "italic"
 			}
 		},
-        {
-            "scope": ["variable.parameter"],
-            "settings": {
-                "foreground": "#D9F2C7",
-                "fontStyle": "italic"
-            }
-        },
+		{
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#D9F2C7",
+				"fontStyle": "italic"
+			}
+		},
 		{
 			"scope": [
 				"variable",
@@ -164,13 +164,6 @@
 			],
 			"settings": {
 				"foreground": "#D9F2C7"
-			}
-		},
-		{
-			"scope": ["variable.parameter"],
-			"settings": {
-				"foreground": "#D9F2C7",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -197,7 +190,7 @@
 			],
 			"settings": {
 				"foreground": "#7A916E",
-                "fontStyle": "italic"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -216,8 +209,8 @@
 				"foreground": "#7A916E"
 			}
 		},
-        {
-"scope": [
+		{
+			"scope": [
 				"storage.type",
 				"storage.type.class",
 				"storage.type.interface",
@@ -230,7 +223,7 @@
 				"foreground": "#7A916E",
 				"fontStyle": "italic"
 			}
-        },
+		},
 		{
 			"scope": ["string", "punctuation.definition.string", "string.template"],
 			"settings": {
