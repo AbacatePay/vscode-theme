@@ -29,14 +29,19 @@
 				"path": "./themes/abacatepay-theme-dark.json"
 			},
 			{
+				"uiTheme": "vs-dark",
+				"label": "AbacatePay Dark Italic Theme",
+				"path": "./themes/abacatepay-theme-dark-italic.json"
+			},
+			{
 				"uiTheme": "vs",
 				"label": "AbacatePay Light Theme",
 				"path": "./themes/abacatepay-theme-light.json"
 			},
 			{
-				"uiTheme": "vs-dark",
-				"label": "AbacatePay Dark Italic Theme",
-				"path": "./themes/abacatepay-theme-dark-italic.json"
+				"uiTheme": "vs",
+				"label": "AbacatePay Light Italic Theme",
+				"path": "./themes/abacatepay-theme-light-italic.json"
 			}
 		]
 	},
