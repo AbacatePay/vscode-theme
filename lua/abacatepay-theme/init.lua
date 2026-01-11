@@ -26,7 +26,7 @@ function M.setup()
 	end
 	vim.o.termguicolors = true
 	vim.o.background = "dark"
-	vim.g.colors_name = "abacatepay-theme" -- Kept generic for init.lua
+	vim.g.colors_name = "abacatepay-theme"
 
 	local h = function(group, settings)
 		vim.api.nvim_set_hl(0, group, settings)
@@ -109,16 +109,9 @@ function M.setup()
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.seed_brown })
 
-	-- Punctuation / Brackets
-	h("@punctuation.bracket", { fg = M.palette.fg })
-	h("@punctuation.delimiter", { fg = M.palette.fg })
-	h("Delimiter", { fg = M.palette.fg })
-	h("@tag.delimiter", { fg = M.palette.fg })
-
-	-- Dashboard / Alpha
 	h("AlphaHeader", { fg = M.palette.green })
 	h("AlphaButtons", { fg = M.palette.green })
-	h("AlphaShortcut", { fg = M.palette.orange or M.palette.yellow })
+	h("AlphaShortcut", { fg = M.palette.yellow })
 	h("DashboardHeader", { fg = M.palette.green })
 	h("DashboardCenter", { fg = M.palette.green })
 	h("DashboardShortcut", { fg = M.palette.yellow })
@@ -135,9 +128,52 @@ function M.setup()
 	h("Label", { fg = M.palette.green })
 	h("SpecialKey", { fg = M.palette.green })
 
+	h("htmlTag", { fg = M.palette.green })
+	h("htmlTagName", { fg = M.palette.green })
+	h("htmlArg", { fg = M.palette.olive })
+	h("htmlEndTag", { fg = M.palette.green })
+	h("htmlString", { fg = M.palette.seed_brown })
+	h("@tag", { fg = M.palette.green })
+	h("@tag.builtin", { fg = M.palette.green })
+	h("@tag.attribute", { fg = M.palette.olive })
+	h("@tag.delimiter", { fg = M.palette.green })
+	h("@punctuation.definition.string.begin.html", { fg = M.palette.seed_brown })
+	h("@punctuation.definition.string.end.html", { fg = M.palette.seed_brown })
+
+	h("markdownHeadingDelimiter", { fg = M.palette.green, bold = true })
+	h("markdownCode", { fg = M.palette.yellow })
+	h("markdownCodeBlock", { fg = M.palette.yellow })
+	h("markdownH1", { fg = M.palette.light_green, bold = true })
+	h("markdownH2", { fg = M.palette.function_brown, bold = true })
+	h("markdownH3", { fg = M.palette.green, bold = true })
+	h("markdownH4", { fg = M.palette.olive, bold = true })
+	h("markdownH5", { fg = M.palette.yellow, bold = true })
+	h("markdownH6", { fg = M.palette.gray, bold = true })
+	h("markdownLinkText", { fg = M.palette.light_green })
+	h("markdownUrl", { fg = M.palette.light_green, underline = true })
+	h("@markup.heading", { fg = M.palette.green, bold = true })
+	h("@markup.heading.1", { fg = M.palette.light_green, bold = true })
+	h("@markup.heading.2", { fg = M.palette.function_brown, bold = true })
+	h("@markup.heading.3", { fg = M.palette.green, bold = true })
+	h("@markup.heading.4", { fg = M.palette.olive, bold = true })
+	h("@markup.heading.5", { fg = M.palette.yellow, bold = true })
+	h("@markup.heading.6", { fg = M.palette.gray, bold = true })
+	h("@markup.list", { fg = M.palette.green })
+	h("@markup.link", { fg = M.palette.light_green })
+	h("@markup.link.label", { fg = M.palette.yellow })
+	h("@markup.link.url", { fg = M.palette.light_green, underline = true })
+	h("@markup.raw", { fg = M.palette.yellow })
+	h("@markup.italic", { fg = M.palette.olive, italic = true })
+	h("@markup.emphasis", { fg = M.palette.olive, italic = true })
+	h("markdownItalic", { fg = M.palette.olive, italic = true })
+	h("markdownItalicDelimiter", { fg = M.palette.olive, italic = true })
+	h("@markup.strong", { fg = M.palette.light_green, bold = true })
+	h("markdownBold", { fg = M.palette.light_green, bold = true })
+
 	if package.loaded["lualine"] then
 		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
 	end
 end
 
 return M
+

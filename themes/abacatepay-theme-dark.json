@@ -43,6 +43,86 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Markdown Heading 1",
+			"scope": [
+				"entity.name.section.markdown heading.1.markdown",
+				"heading.1.markdown entity.name.section.markdown",
+				"heading.1.markdown",
+				"entity.name.section.markdown"
+			],
+			"settings": {
+				"foreground": "#C6EF9D",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Heading 2",
+			"scope": [
+				"punctuation.definition.heading.markdown heading.2.markdown",
+				"heading.2.markdown punctuation.definition.heading.markdown",
+				"heading.2.markdown"
+			],
+			"settings": {
+				"foreground": "#D9F2C7",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Heading 3",
+			"scope": [
+				"punctuation.definition.heading.markdown heading.3.markdown",
+				"heading.3.markdown punctuation.definition.heading.markdown",
+				"heading.3.markdown"
+			],
+			"settings": {
+				"foreground": "#7A916E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Heading 4",
+			"scope": [
+				"heading.4.markdown"
+			],
+			"settings": {
+				"foreground": "#7A916E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Heading 5",
+			"scope": [
+				"heading.5.markdown"
+			],
+			"settings": {
+				"foreground": "#FAF4C8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Heading 6",
+			"scope": [
+				"heading.6.markdown"
+			],
+			"settings": {
+				"foreground": "#94A3B8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Strong/Bold",
+			"scope": [
+				"markup.strong",
+				"markup.bold",
+				"markup.strong.markdown",
+				"markup.bold.markdown"
+			],
+			"settings": {
+				"foreground": "#D4A373",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
@@ -169,21 +249,106 @@
 			}
 		},
 		{
-			"scope": ["entity.name.tag", "punctuation.definition.tag"],
+			"name": "HTML/XML Tags",
+			"scope": [
+				"entity.name.tag",
+				"punctuation.definition.tag",
+				"meta.tag.any",
+				"meta.tag.sgml"
+			],
 			"settings": {
 				"foreground": "#C6EF9D"
 			}
 		},
 		{
-			"scope": ["markup.heading"],
+			"name": "HTML Attributes",
+			"scope": ["entity.other.attribute-name", "entity.other.attribute-name.html"],
 			"settings": {
-				"foreground": "#C6EF9D"
+				"foreground": "#7A916E"
 			}
 		},
 		{
-			"scope": ["markup.link"],
+			"name": "HTML Attribute Values",
+			"scope": [
+				"string.quoted.double.html",
+				"string.quoted.single.html",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
+			],
 			"settings": {
 				"foreground": "#BFA58A"
+			}
+		},
+		{
+			"name": "HTML Punctuation",
+			"scope": ["punctuation.separator.key-value.html", "punctuation.definition.tag.html"],
+			"settings": {
+				"foreground": "#ECF0F1"
+			}
+		},
+		{
+			"name": "Markdown Paragraph Text",
+			"scope": ["meta.paragraph.markdown", "text.html.markdown"],
+			"settings": {
+				"foreground": "#ECF0F1"
+			}
+		},
+		{
+			"name": "Markdown Links",
+			"scope": [
+				"markup.link",
+				"markup.underline.link",
+				"meta.link.inline.markdown",
+				"meta.link.reference.markdown"
+			],
+			"settings": {
+				"foreground": "#D9F2C7"
+			}
+		},
+		{
+			"name": "Markdown Link Titles",
+			"scope": [
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#FAF4C8"
+			}
+		},
+		{
+			"name": "Markdown Code",
+			"scope": [
+				"markup.inline.raw",
+				"markup.fenced_code.block",
+				"punctuation.definition.markdown"
+			],
+			"settings": {
+				"foreground": "#FAF4C8"
+			}
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": ["markup.italic", "punctuation.definition.italic.markdown"],
+			"settings": {
+				"foreground": "#7A916E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": ["markup.bold", "punctuation.definition.bold.markdown"],
+			"settings": {
+				"foreground": "#D9F2C7",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Lists",
+			"scope": ["beginning.punctuation.definition.list.markdown"],
+			"settings": {
+				"foreground": "#C6EF9D"
 			}
 		}
 	]
