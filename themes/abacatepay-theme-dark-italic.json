@@ -275,17 +275,23 @@
 				"entity.name.tag",
 				"punctuation.definition.tag",
 				"meta.tag.any",
-				"meta.tag.sgml"
+				"meta.tag.sgml",
+				"entity.name.tag.html",
+				"entity.name.tag.jsx",
+				"entity.name.tag.tsx"
 			],
 			"settings": {
-				"foreground": "#C6EF9D"
+				"foreground": "#C6EF9D",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "HTML Attributes",
 			"scope": [
 				"entity.other.attribute-name",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.jsx",
+				"entity.other.attribute-name.tsx"
 			],
 			"settings": {
 				"foreground": "#7A916E"
