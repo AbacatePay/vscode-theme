@@ -26,7 +26,7 @@ function M.setup()
 	end
 	vim.o.termguicolors = true
 	vim.o.background = "dark"
-	vim.g.colors_name = "abacatepay-theme" -- Kept generic for init.lua
+	vim.g.colors_name = "abacatepay-theme-dark"
 
 	local h = function(group, settings)
 		vim.api.nvim_set_hl(0, group, settings)
@@ -109,13 +109,6 @@ function M.setup()
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.seed_brown })
 
-	-- Punctuation / Brackets
-	h("@punctuation.bracket", { fg = M.palette.fg })
-	h("@punctuation.delimiter", { fg = M.palette.fg })
-	h("Delimiter", { fg = M.palette.fg })
-	h("@tag.delimiter", { fg = M.palette.fg })
-
-	-- Dashboard / Alpha
 	h("AlphaHeader", { fg = M.palette.green })
 	h("AlphaButtons", { fg = M.palette.green })
 	h("AlphaShortcut", { fg = M.palette.orange or M.palette.yellow })

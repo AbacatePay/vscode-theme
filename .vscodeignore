@@ -1,0 +1,16 @@
+**/*
+
+!package.json
+!README.md
+!readme.md
+!LICENSE
+!LICENSE.md
+!icon.png
+
+!themes/**
+!themes/*.json
+
+!assets/**
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg

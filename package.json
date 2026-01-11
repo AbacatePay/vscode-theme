@@ -2,7 +2,7 @@
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
 	"description": "A gree-first theme based for AbacatePay.",
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"publisher": "abacatepay",
 	"engines": {
 		"vscode": "^1.50.0"
@@ -10,12 +10,25 @@
 	"categories": [
 		"Themes"
 	],
+	"configurationDefaults": {
+		"[abacatepay-theme-dark]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay-theme-light]": {
+			"editor.bracketPairColorization.enabled": false
+		}
+	},
 	"contributes": {
 		"themes": [
 			{
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Dark Theme",
 				"path": "./themes/abacatepay-theme-dark.json"
+			},
+			{
+				"uiTheme": "vs",
+				"label": "AbacatePay Light Theme",
+				"path": "./themes/abacatepay-theme-light.json"
 			}
 		]
 	},
@@ -35,5 +48,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/almeidazs/abacatepay-theme"
-	}
+	},
+	"icon": "assets/logo.png"
 }
