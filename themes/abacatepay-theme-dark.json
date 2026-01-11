@@ -99,9 +99,7 @@
 		},
 		{
 			"name": "Markdown Heading 4",
-			"scope": [
-				"heading.4.markdown"
-			],
+			"scope": ["heading.4.markdown"],
 			"settings": {
 				"foreground": "#7A916E",
 				"fontStyle": "bold"
@@ -109,9 +107,7 @@
 		},
 		{
 			"name": "Markdown Heading 5",
-			"scope": [
-				"heading.5.markdown"
-			],
+			"scope": ["heading.5.markdown"],
 			"settings": {
 				"foreground": "#FAF4C8",
 				"fontStyle": "bold"
@@ -119,9 +115,7 @@
 		},
 		{
 			"name": "Markdown Heading 6",
-			"scope": [
-				"heading.6.markdown"
-			],
+			"scope": ["heading.6.markdown"],
 			"settings": {
 				"foreground": "#94A3B8",
 				"fontStyle": "bold"
@@ -280,7 +274,10 @@
 		},
 		{
 			"name": "HTML Attributes",
-			"scope": ["entity.other.attribute-name", "entity.other.attribute-name.html"],
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
 			"settings": {
 				"foreground": "#7A916E"
 			}
@@ -299,7 +296,10 @@
 		},
 		{
 			"name": "HTML Punctuation",
-			"scope": ["punctuation.separator.key-value.html", "punctuation.definition.tag.html"],
+			"scope": [
+				"punctuation.separator.key-value.html",
+				"punctuation.definition.tag.html"
+			],
 			"settings": {
 				"foreground": "#ECF0F1"
 			}

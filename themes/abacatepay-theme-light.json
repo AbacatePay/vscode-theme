@@ -44,27 +44,27 @@
 		"menubar.selectionBackground": "#E5E5E1",
 		"menu.foreground": "#3F4E4F",
 		"menu.background": "#F1F1F0",
-				"menu.selectionForeground": "#3F4E4F",
-				"menu.selectionBackground": "#E5E5E1",
-				"terminal.background": "#F1F1F0",
-				"terminal.foreground": "#3F4E4F",
-				"terminal.ansiBlack": "#3F4E4F",
-				"terminal.ansiBlue": "#2F4F4F",
-				"terminal.ansiCyan": "#2F4F4F",
-				"terminal.ansiGreen": "#4C7A2E",
-				"terminal.ansiMagenta": "#A0522D",
-				"terminal.ansiRed": "#B22222",
-				"terminal.ansiWhite": "#F1F1F0",
-				"terminal.ansiYellow": "#B58900",
-				"terminal.ansiBrightBlack": "#708090",
-				"terminal.ansiBrightBlue": "#2F4F4F",
-				"terminal.ansiBrightCyan": "#2F4F4F",
-				"terminal.ansiBrightGreen": "#6A994E",
-				"terminal.ansiBrightMagenta": "#A0522D",
-				"terminal.ansiBrightRed": "#B22222",
-				"terminal.ansiBrightWhite": "#F1F1F0",
-				"terminal.ansiBrightYellow": "#B8860B"
-			},
+		"menu.selectionForeground": "#3F4E4F",
+		"menu.selectionBackground": "#E5E5E1",
+		"terminal.background": "#F1F1F0",
+		"terminal.foreground": "#3F4E4F",
+		"terminal.ansiBlack": "#3F4E4F",
+		"terminal.ansiBlue": "#2F4F4F",
+		"terminal.ansiCyan": "#2F4F4F",
+		"terminal.ansiGreen": "#4C7A2E",
+		"terminal.ansiMagenta": "#A0522D",
+		"terminal.ansiRed": "#B22222",
+		"terminal.ansiWhite": "#F1F1F0",
+		"terminal.ansiYellow": "#B58900",
+		"terminal.ansiBrightBlack": "#708090",
+		"terminal.ansiBrightBlue": "#2F4F4F",
+		"terminal.ansiBrightCyan": "#2F4F4F",
+		"terminal.ansiBrightGreen": "#6A994E",
+		"terminal.ansiBrightMagenta": "#A0522D",
+		"terminal.ansiBrightRed": "#B22222",
+		"terminal.ansiBrightWhite": "#F1F1F0",
+		"terminal.ansiBrightYellow": "#B8860B"
+	},
 	"tokenColors": [
 		{
 			"name": "Markdown Heading 1",
@@ -105,9 +105,7 @@
 		},
 		{
 			"name": "Markdown Heading 4",
-			"scope": [
-				"heading.4.markdown"
-			],
+			"scope": ["heading.4.markdown"],
 			"settings": {
 				"foreground": "#556B2F",
 				"fontStyle": "bold"
@@ -115,9 +113,7 @@
 		},
 		{
 			"name": "Markdown Heading 5",
-			"scope": [
-				"heading.5.markdown"
-			],
+			"scope": ["heading.5.markdown"],
 			"settings": {
 				"foreground": "#B58900",
 				"fontStyle": "bold"
@@ -125,9 +121,7 @@
 		},
 		{
 			"name": "Markdown Heading 6",
-			"scope": [
-				"heading.6.markdown"
-			],
+			"scope": ["heading.6.markdown"],
 			"settings": {
 				"foreground": "#708090",
 				"fontStyle": "bold"
@@ -283,14 +277,21 @@
 		},
 		{
 			"name": "HTML Tags",
-			"scope": ["entity.name.tag", "punctuation.definition.tag", "meta.tag.any"],
+			"scope": [
+				"entity.name.tag",
+				"punctuation.definition.tag",
+				"meta.tag.any"
+			],
 			"settings": {
 				"foreground": "#4C7A2E"
 			}
 		},
 		{
 			"name": "HTML Attributes",
-			"scope": ["entity.other.attribute-name", "entity.other.attribute-name.html"],
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
 			"settings": {
 				"foreground": "#556B2F"
 			}
@@ -318,27 +319,28 @@
 				"foreground": "#6A994E"
 			}
 		},
-		        {
-		            "name": "Markdown Code",
-		            "scope": ["markup.inline.raw", "markup.fenced_code.block"],
-		            "settings": {
-		                "foreground": "#B58900"
-		            }
-		        },
-		        {
-		            "name": "Markdown Italic",
-		            "scope": ["markup.italic", "punctuation.definition.italic.markdown"],
-		            "settings": {
-		                "foreground": "#556B2F",
-		                "fontStyle": "italic"
-		            }
-		        },
-		        {
-		            "name": "Markdown Bold",
-		            "scope": ["markup.bold", "punctuation.definition.bold.markdown"],
-		            "settings": {
-		                "foreground": "#6A994E",
-		                "fontStyle": "bold"
-		            }
-		        }	]
+		{
+			"name": "Markdown Code",
+			"scope": ["markup.inline.raw", "markup.fenced_code.block"],
+			"settings": {
+				"foreground": "#B58900"
+			}
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": ["markup.italic", "punctuation.definition.italic.markdown"],
+			"settings": {
+				"foreground": "#556B2F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": ["markup.bold", "punctuation.definition.bold.markdown"],
+			"settings": {
+				"foreground": "#6A994E",
+				"fontStyle": "bold"
+			}
+		}
+	]
 }
