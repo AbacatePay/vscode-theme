@@ -13,6 +13,8 @@ Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
 5. From this repository, select one of the following files:
    - `intellij/abacatepay-theme-dark.json`
    - `intellij/abacatepay-theme-light.json`
+   - `intellij/abacatepay-theme-soft.json`
+
 6. Click **Apply**, then **OK**.
 
 ---

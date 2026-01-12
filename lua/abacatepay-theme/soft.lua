@@ -1,7 +1,7 @@
 local M = {}
 
 M.palette = {
-	bg = "#101213",
+	bg = "#222526",
 	fg = "#ECF0F1",
 	green = "#C6EF9D",
 	light_green = "#D9F2C7",
@@ -11,7 +11,7 @@ M.palette = {
 	function_brown_2 = "#8B5A2B",
 	teal = "#3D5F61",
 	gray = "#94A3B8",
-	selection = "#263238",
+	selection = "#35393B",
 	seed_brown = "#BFA58A",
 	error = "#E67E22",
 	warn = "#F1E48E",
@@ -26,19 +26,15 @@ function M.setup()
 	end
 	vim.o.termguicolors = true
 	vim.o.background = "dark"
-	vim.g.colors_name = "abacatepay-theme"
+	vim.g.colors_name = "abacatepay-theme-soft"
 
 	local h = function(group, settings)
 		vim.api.nvim_set_hl(0, group, settings)
 	end
 
 	h("Normal", { fg = M.palette.fg, bg = M.palette.bg })
-	h("NormalFloat", { fg = M.palette.fg, bg = "#161819" })
+	h("NormalFloat", { fg = M.palette.fg, bg = "#292C2D" })
 	h("Identifier", { fg = M.palette.light_green })
-	h("@variable", { fg = M.palette.light_green })
-	h("@variable.parameter", { fg = M.palette.light_green })
-	h("@variable.member", { fg = M.palette.light_green })
-	h("@variable.property", { fg = M.palette.light_green })
 
 	h("Keyword", { fg = M.palette.olive })
 	h("StorageClass", { fg = M.palette.olive })
@@ -65,17 +61,9 @@ function M.setup()
 	h("@type", { fg = M.palette.yellow })
 	h("String", { fg = M.palette.seed_brown })
 	h("@string", { fg = M.palette.seed_brown })
-	h("Constant", { fg = M.palette.yellow })
-	h("@constant", { fg = M.palette.yellow })
-	h("@constant.builtin", { fg = M.palette.yellow })
-	h("@constant.macro", { fg = M.palette.yellow })
-	h("@variable.constant", { fg = M.palette.yellow })
-	h("@lsp.type.enumMember", { fg = M.palette.yellow })
-	h("@lsp.type.variable.readonly", { fg = M.palette.yellow })
-	h("@lsp.typemod.variable.readonly", { fg = M.palette.yellow })
-	h("@lsp.typemod.variable.static", { fg = M.palette.yellow })
-	h("Number", { fg = M.palette.green })
-	h("Boolean", { fg = M.palette.green })
+	h("Constant", { fg = M.palette.olive })
+	h("Number", { fg = M.palette.olive })
+	h("Boolean", { fg = M.palette.olive })
 	h("@variable", { fg = M.palette.light_green })
 
 	h("DiagnosticError", { fg = M.palette.error })
@@ -88,15 +76,15 @@ function M.setup()
 	h("GitSignsChange", { fg = M.palette.yellow })
 	h("GitSignsDelete", { fg = M.palette.error })
 
-	h("LineNr", { fg = "#2C3133" })
+	h("LineNr", { fg = "#35393B" })
 	h("CursorLineNr", { fg = M.palette.green, bold = true })
 	h("Visual", { bg = M.palette.selection })
-	h("CursorLine", { bg = "#161819" })
-	h("StatusLine", { fg = M.palette.fg, bg = "#161819" })
+	h("CursorLine", { bg = "#292C2D" })
+	h("StatusLine", { fg = M.palette.fg, bg = "#292C2D" })
 	h("StatusLineNC", { fg = M.palette.gray, bg = M.palette.bg })
-	h("VertSplit", { fg = "#1B1B22" })
+	h("VertSplit", { fg = "#2E3132" })
 
-	h("TelescopeBorder", { fg = "#1B1B22", bg = M.palette.bg })
+	h("TelescopeBorder", { fg = "#2E3132", bg = M.palette.bg })
 	h("TelescopeNormal", { bg = M.palette.bg })
 	h("TelescopeSelection", { bg = M.palette.selection })
 
@@ -110,7 +98,7 @@ function M.setup()
 	h("Underlined", { fg = M.palette.seed_brown, underline = true })
 	h("MatchParen", { bg = M.palette.selection, fg = M.palette.yellow, bold = true })
 	h("WildMenu", { bg = M.palette.selection, fg = M.palette.fg })
-	h("Pmenu", { bg = "#161819", fg = M.palette.fg })
+	h("Pmenu", { bg = "#292C2D", fg = M.palette.fg })
 	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
 	h("PmenuThumb", { bg = M.palette.gray })
 
@@ -120,11 +108,6 @@ function M.setup()
 	h("Title", { fg = M.palette.seed_brown })
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.seed_brown })
-
-	h("@punctuation.bracket", { fg = M.palette.fg })
-	h("@punctuation.delimiter", { fg = M.palette.fg })
-	h("Delimiter", { fg = M.palette.fg })
-	h("@tag.delimiter", { fg = M.palette.fg })
 
 	h("AlphaHeader", { fg = M.palette.green })
 	h("AlphaButtons", { fg = M.palette.green })
@@ -161,6 +144,13 @@ function M.setup()
 	h("@variable.member", { fg = M.palette.olive })
 	h("@punctuation.definition.string.begin.html", { fg = M.palette.seed_brown })
 	h("@punctuation.definition.string.end.html", { fg = M.palette.seed_brown })
+
+	h("jsonKeyword", { fg = M.palette.yellow })
+	h("jsonQuote", { fg = M.palette.yellow })
+	h("jsonKey", { fg = M.palette.yellow })
+	h("@property.json", { fg = M.palette.yellow })
+	h("@label.json", { fg = M.palette.yellow })
+	h("@string.special.symbol.json", { fg = M.palette.yellow })
 
 	h("@lsp.type.class", { fg = M.palette.yellow })
 	h("@lsp.type.interface", { fg = M.palette.yellow })
@@ -204,8 +194,9 @@ function M.setup()
 	h("markdownBold", { fg = M.palette.light_green, bold = true })
 
 	if package.loaded["lualine"] then
-		require("lualine").setup({ options = { theme = "abacatepay-theme" } })
+		require("lualine").setup({ options = { theme = "abacatepay-theme-soft" } })
 	end
 end
 
 return M
+

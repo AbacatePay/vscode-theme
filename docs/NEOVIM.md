@@ -38,6 +38,14 @@ use({
 vim.cmd("colorscheme abacatepay-theme")
 ```
 
+<p align="center">Available variants:</p>
+
+```lua
+vim.cmd("colorscheme abacatepay-theme") -- Dark (default)
+vim.cmd("colorscheme abacatepay-theme-light")
+vim.cmd("colorscheme abacatepay-theme-soft")
+```
+
 <p align="center">For Lualine support, the theme is automatically detected if `lualine` is loaded before the theme setup, or you can explicitly set it</p>
 
 ```lua
