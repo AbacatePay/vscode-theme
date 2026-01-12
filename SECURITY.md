@@ -1,53 +1,47 @@
-# Security Policy - AbacatePay SDKs
+# Security Policy
 
-At AbacatePay, we treat security with the highest priority. We are committed to protecting our users, partners, and the open source community that uses our projects.
+At AbacatePay, we take security seriously across all our open source projects — including editor themes and developer tools.
 
-If you identify any vulnerability in our projects, follow the guidelines below to ensure secure and efficient communication.
+While this repository does not execute runtime code or handle sensitive data, we still value responsible disclosure and community collaboration.
 
 ---
 
-## How to Report Vulnerabilities
+## Reporting a Vulnerability
 
-Send an email to: **security@abacatepay.com**
+If you believe you have found a security-related issue, please report it responsibly.
 
-Or use the **GitHub Security Advisories** feature in the official repositories.
+Email: **security@abacatepay.com**  
+Or use **GitHub Security Advisories** in the official repository.
 
-Please provide as much detail as possible:
-
-- Description of the vulnerability.
-- Steps to reproduce.
-- Potential impact.
-- Possible mitigation suggestions.
+When reporting, please include:
+- A clear description of the issue
+- Steps to reproduce (if applicable)
+- Potential impact
 
 ---
 
 ## What to Expect
 
-- We will confirm receipt of your report within 48 business hours.
-- We will analyze and triage the vulnerability.
-- We will work on a fix within a timeframe compatible with the criticality of the issue.
-- We will conduct a coordinated disclosure after the fix, ensuring that users are properly informed.
+- Acknowledgement within a reasonable timeframe
+- Evaluation and triage of the report
+- Resolution when applicable
+- Coordinated disclosure if necessary
 
 ---
 
-## Responsible Disclosure Policy
+## Responsible Disclosure
 
-We request that you **do not publicly disclose any vulnerability** before we have had the opportunity to fix it and communicate to the community appropriately.
+Please avoid public disclosure until we have had the opportunity to review and address the issue.
 
-We value the practice of *responsible disclosure* and recognize the importance of community collaboration to keep our projects secure.
-
----
-
-## Token and Credential Management
-
-Accidental exposure of tokens, API keys, or other sensitive credentials represents a critical risk.
-
-> Credential leaks must be treated with the highest priority.
+We appreciate responsible disclosure practices and the efforts of the community to keep our projects safe.
 
 ---
 
-## Acknowledgement
+## Notes
 
-We thank you for your contribution to making the AbacatePay ecosystem more secure.
+This project is an editor theme and does not process credentials, user data, or production traffic.  
+Any accidental exposure of secrets or credentials should still be reported immediately.
 
-Every collaboration is fundamental to maintaining the integrity and trust in our open source SDKs.
+---
+
+Thank you for helping keep the AbacatePay open source ecosystem trustworthy.
