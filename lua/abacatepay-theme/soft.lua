@@ -146,8 +146,11 @@ function M.setup()
 	h("@punctuation.definition.string.end.html", { fg = M.palette.seed_brown })
 
 	h("jsonKeyword", { fg = M.palette.yellow })
+	h("jsonQuote", { fg = M.palette.yellow })
+	h("jsonKey", { fg = M.palette.yellow })
 	h("@property.json", { fg = M.palette.yellow })
 	h("@label.json", { fg = M.palette.yellow })
+	h("@string.special.symbol.json", { fg = M.palette.yellow })
 
 	h("@lsp.type.class", { fg = M.palette.yellow })
 	h("@lsp.type.interface", { fg = M.palette.yellow })

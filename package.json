@@ -2,19 +2,22 @@
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
 	"description": "A green-first VS Code theme designed for AbacatePay.",
-	"version": "0.1.7",
+	"version": "0.1.10",
 	"publisher": "abacatepay",
 	"engines": {
-		"vscode": "^1.50.0"
+		"vscode": "^1.74.0"
 	},
 	"categories": [
 		"Themes"
 	],
 	"configurationDefaults": {
-		"[abacatepay-theme-dark]": {
+		"[abacatepay dark theme]": {
 			"editor.bracketPairColorization.enabled": false
 		},
-		"[abacatepay-theme-light]": {
+		"[abacatepay dark italic theme]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay light theme]": {
 			"editor.bracketPairColorization.enabled": false
 		},
 		"[abacatepay soft theme]": {
@@ -30,6 +33,11 @@
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Dark Theme",
 				"path": "./themes/abacatepay-theme-dark.json"
+			},
+			{
+				"uiTheme": "vs-dark",
+				"label": "AbacatePay Dark Italic Theme",
+				"path": "./themes/abacatepay-theme-dark-italic.json"
 			},
 			{
 				"uiTheme": "vs",
@@ -70,5 +78,14 @@
 		"type": "git",
 		"url": "https://github.com/almeidazs/abacatepay-theme"
 	},
-	"icon": "assets/logo.png"
+	"license": "MIT",
+	"icon": "assets/logo.png",
+	"homepage": "https://github.com/almeidazs/abacatepay-theme",
+	"keywords": [
+		"theme",
+		"dark theme",
+		"light theme",
+		"green",
+		"abacatepay"
+	]
 }

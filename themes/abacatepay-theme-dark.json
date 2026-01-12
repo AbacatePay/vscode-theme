@@ -54,6 +54,16 @@
 			}
 		},
 		{
+			"name": "JSON Key - Level 0",
+			"scope": [
+				"support.type.property-name.json",
+				"source.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FAF4C8"
+			}
+		},
+		{
 			"scope": [
 				"variable",
 				"variable.other",
