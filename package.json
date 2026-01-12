@@ -76,11 +76,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/almeidazs/abacatepay-theme"
+		"url": "https://github.com/AbacatePay/vscode-theme"
 	},
 	"license": "MIT",
 	"icon": "assets/logo.png",
-	"homepage": "https://github.com/almeidazs/abacatepay-theme",
+	"homepage": "https://github.com/AbacatePay/vscode-theme",
 	"keywords": [
 		"theme",
 		"dark theme",

@@ -8,7 +8,7 @@
 
 ```lua
 {
-  "almeidazs/abacatepay-theme",
+  "AbacatePay/vscode-theme",
   lazy = false,
   priority = 1000,
   config = function()
@@ -23,7 +23,7 @@
 
 ```lua
 use({
-  "almeidazs/abacatepay-theme",
+  "AbacatePay/vscode-theme",
   config = function()
     vim.cmd.colorscheme("abacatepay-theme")
   end,
