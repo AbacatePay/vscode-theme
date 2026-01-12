@@ -1,6 +1,8 @@
-# AbacatePay Theme for IntelliJ
+<h1 align="center">AbacatePay Theme for IntelliJ</h1>
 
-## Installation
+<p align="center">
+Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
+</p>
 
 <h2 align="center">Installation</h2>
 
@@ -12,6 +14,7 @@
    - `intellij/abacatepay-theme-dark.json`
    - `intellij/abacatepay-theme-light.json`
    - `intellij/abacatepay-theme-soft.json`
+
 6. Click **Apply**, then **OK**.
 
 ---

@@ -1,8 +1,10 @@
-# AbacatePay Theme for Neovim
+<h1 align="center">AbacatePay Theme for Neovim</h1>
 
-## Installation
+<p align="center">Green-first color scheme for Neovim, inspired by the AbacatePay visual identity.</p>
 
-### [lazy.nvim](https://github.com/folke/lazy.nvim)
+<h2 align="center">Installation</h2>
+
+<p align="center"><a href="https://github.com/folke/lazy.nvim">lazy.nvim</a></p>
 
 ```lua
 {
@@ -17,7 +19,7 @@
 }
 ```
 
-### [packer.nvim](https://github.com/wbthomason/packer.nvim)
+<p align="center"><a href="https://github.com/wbthomason/packer.nvim">packer.nvim</a></p>
 
 ```lua
 use({
@@ -28,9 +30,9 @@ use({
 })
 ```
 
-## Configuration
+<h2 align="center">Configuration</h2>
 
-The theme comes with sensible defaults. To apply the theme manually or in your init file:
+<p align="center">The theme comes with sensible defaults. To apply the theme manually or in your init file</p>
 
 ```lua
 vim.cmd("colorscheme abacatepay-theme")
@@ -47,9 +49,9 @@ vim.cmd("colorscheme abacatepay-theme-soft")
 <p align="center">For Lualine support, the theme is automatically detected if `lualine` is loaded before the theme setup, or you can explicitly set it</p>
 
 ```lua
-require('lualine').setup {
+require("lualine").setup {
   options = {
-    theme = 'abacatepay-theme'
+    theme = "abacatepay-theme"
   }
 }
 ```
