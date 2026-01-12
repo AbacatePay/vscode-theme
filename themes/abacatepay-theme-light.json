@@ -158,12 +158,19 @@
 				"constant.language",
 				"constant.character",
 				"constant.other",
-				"variable.other.constant",
 				"number",
 				"boolean"
 			],
 			"settings": {
-				"foreground": "#2F4F4F"
+				"foreground": "#4C7A2E"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#B58900"
 			}
 		},
 		{

@@ -26,7 +26,7 @@ function M.setup()
 	end
 	vim.o.termguicolors = true
 	vim.o.background = "dark"
-	vim.g.colors_name = "abacatepay-theme" -- Kept generic for init.lua
+	vim.g.colors_name = "abacatepay-theme"
 
 	local h = function(group, settings)
 		vim.api.nvim_set_hl(0, group, settings)
@@ -35,6 +35,10 @@ function M.setup()
 	h("Normal", { fg = M.palette.fg, bg = M.palette.bg })
 	h("NormalFloat", { fg = M.palette.fg, bg = "#161819" })
 	h("Identifier", { fg = M.palette.light_green })
+	h("@variable", { fg = M.palette.light_green })
+	h("@variable.parameter", { fg = M.palette.light_green })
+	h("@variable.member", { fg = M.palette.light_green })
+	h("@variable.property", { fg = M.palette.light_green })
 
 	h("Keyword", { fg = M.palette.olive })
 	h("StorageClass", { fg = M.palette.olive })
@@ -61,9 +65,17 @@ function M.setup()
 	h("@type", { fg = M.palette.yellow })
 	h("String", { fg = M.palette.seed_brown })
 	h("@string", { fg = M.palette.seed_brown })
-	h("Constant", { fg = M.palette.olive })
-	h("Number", { fg = M.palette.olive })
-	h("Boolean", { fg = M.palette.olive })
+	h("Constant", { fg = M.palette.yellow })
+	h("@constant", { fg = M.palette.yellow })
+	h("@constant.builtin", { fg = M.palette.yellow })
+	h("@constant.macro", { fg = M.palette.yellow })
+	h("@variable.constant", { fg = M.palette.yellow })
+	h("@lsp.type.enumMember", { fg = M.palette.yellow })
+	h("@lsp.type.variable.readonly", { fg = M.palette.yellow })
+	h("@lsp.typemod.variable.readonly", { fg = M.palette.yellow })
+	h("@lsp.typemod.variable.static", { fg = M.palette.yellow })
+	h("Number", { fg = M.palette.green })
+	h("Boolean", { fg = M.palette.green })
 	h("@variable", { fg = M.palette.light_green })
 
 	h("DiagnosticError", { fg = M.palette.error })
@@ -109,13 +121,11 @@ function M.setup()
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.seed_brown })
 
-	-- Punctuation / Brackets
 	h("@punctuation.bracket", { fg = M.palette.fg })
 	h("@punctuation.delimiter", { fg = M.palette.fg })
 	h("Delimiter", { fg = M.palette.fg })
 	h("@tag.delimiter", { fg = M.palette.fg })
 
-	-- Dashboard / Alpha
 	h("AlphaHeader", { fg = M.palette.green })
 	h("AlphaButtons", { fg = M.palette.green })
 	h("AlphaShortcut", { fg = M.palette.orange or M.palette.yellow })
@@ -141,3 +151,4 @@ function M.setup()
 end
 
 return M
+

@@ -1,8 +1,8 @@
 {
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
-	"description": "A gree-first theme based for AbacatePay.",
-	"version": "0.1.3",
+	"description": "A green-first VS Code theme designed for AbacatePay.",
+	"version": "0.1.7",
 	"publisher": "abacatepay",
 	"engines": {
 		"vscode": "^1.50.0"
@@ -15,6 +15,12 @@
 			"editor.bracketPairColorization.enabled": false
 		},
 		"[abacatepay-theme-light]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay soft theme]": {
+			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay soft italic theme]": {
 			"editor.bracketPairColorization.enabled": false
 		}
 	},
@@ -29,6 +35,21 @@
 				"uiTheme": "vs",
 				"label": "AbacatePay Light Theme",
 				"path": "./themes/abacatepay-theme-light.json"
+			},
+			{
+				"uiTheme": "vs",
+				"label": "AbacatePay Light Italic Theme",
+				"path": "./themes/abacatepay-theme-light-italic.json"
+			},
+			{
+				"uiTheme": "vs-dark",
+				"label": "AbacatePay Soft Theme",
+				"path": "./themes/abacatepay-theme-soft.json"
+			},
+			{
+				"uiTheme": "vs-dark",
+				"label": "AbacatePay Soft Italic Theme",
+				"path": "./themes/abacatepay-theme-soft-italic.json"
 			}
 		]
 	},
