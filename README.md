@@ -57,4 +57,9 @@
 
 <br/>
 
-<p align="center">Thanks 💚</p>
+<p align="center">
+  Originally created by
+  <em><a href="https://github.com/almeidazs">almeida</a></em>
+  and
+  <em><a href="https://github.com/albuquerquesz">albuquerque</a></em>
+</p>
