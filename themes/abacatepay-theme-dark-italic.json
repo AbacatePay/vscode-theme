@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "AbacatePay Theme Dark Italic",
+	"name": "AbacatePay Dark Italic Theme",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#101213",

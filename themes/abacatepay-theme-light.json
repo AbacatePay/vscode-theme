@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "AbacatePay Theme Light",
+	"name": "AbacatePay Light Theme",
 	"type": "light",
 	"colors": {
 		"editor.background": "#F1F1F0",
