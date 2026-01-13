@@ -25,6 +25,9 @@
 		},
 		"[abacatepay soft italic theme]": {
 			"editor.bracketPairColorization.enabled": false
+		},
+		"[abacatepay light italic theme]": {
+			"editor.bracketPairColorization.enabled": false
 		}
 	},
 	"contributes": {
