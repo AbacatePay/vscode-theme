@@ -68,9 +68,6 @@
 		"@biomejs/biome": "^2.3.11",
 		"@types/bun": "latest"
 	},
-	"peerDependencies": {
-		"typescript": "^5"
-	},
 	"scripts": {
 		"biome:check": "bunx biome check --write ."
 	},
