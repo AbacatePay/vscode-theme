@@ -63,7 +63,7 @@
 	},
 	"module": "index.ts",
 	"type": "module",
-	"private": true,
+	"private": false,
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.11",
 		"@types/bun": "latest"
@@ -83,6 +83,7 @@
 	"homepage": "https://github.com/AbacatePay/vscode-theme",
 	"keywords": [
 		"theme",
+		"color-theme",
 		"dark theme",
 		"light theme",
 		"green",
