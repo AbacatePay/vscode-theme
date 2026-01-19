@@ -1,39 +1,39 @@
 local M = {}
 
 M.normal = {
-	a = { fg = "#2A1F18", bg = "#FF9F43", bold = true },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#FFE5D0", bg = "#2A1F18" },
+	a = { fg = "#3D3028", bg = "#E8A85C", bold = true },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#F5E6D3", bg = "#3D3028" },
 }
 
 M.insert = {
-	a = { fg = "#2A1F18", bg = "#7AAC5F", bold = true },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#FFE5D0", bg = "#2A1F18" },
+	a = { fg = "#3D3028", bg = "#8BC48B", bold = true },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#F5E6D3", bg = "#3D3028" },
 }
 
 M.command = {
-	a = { fg = "#2A1F18", bg = "#FAF4C8", bold = true },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#FFE5D0", bg = "#2A1F18" },
+	a = { fg = "#3D3028", bg = "#F5E6D3", bold = true },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#F5E6D3", bg = "#3D3028" },
 }
 
 M.visual = {
-	a = { fg = "#2A1F18", bg = "#D4A373", bold = true },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#FFE5D0", bg = "#2A1F18" },
+	a = { fg = "#3D3028", bg = "#D4A373", bold = true },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#F5E6D3", bg = "#3D3028" },
 }
 
 M.replace = {
-	a = { fg = "#2A1F18", bg = "#E67E22", bold = true },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#FFE5D0", bg = "#2A1F18" },
+	a = { fg = "#3D3028", bg = "#C48A4C", bold = true },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#F5E6D3", bg = "#3D3028" },
 }
 
 M.inactive = {
-	a = { fg = "#FFE5D0", bg = "#3D2E24" },
-	b = { fg = "#FFE5D0", bg = "#3D2E24" },
-	c = { fg = "#9B8B7A", bg = "#2A1F18" },
+	a = { fg = "#F5E6D3", bg = "#4A3F35" },
+	b = { fg = "#F5E6D3", bg = "#4A3F35" },
+	c = { fg = "#9B8B7A", bg = "#3D3028" },
 }
 
 return M
