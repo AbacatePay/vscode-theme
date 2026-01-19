@@ -3,22 +3,36 @@ local M = {}
 M.palette = {
 	bg = "#101213",
 	bg_secondary = "#161819",
-	fg = "#F5E6D3",
-	accent = "#FEA94C",
-	accent_secondary = "#8BC48B",
 	selection = "#263238",
 	border = "#1B1B22",
+
+	fg = "#F5E6D3",
 	comment = "#9B8B7A",
-	orange = "#FEA94C",
-	orange_dark = "#EAA54A",
-	orange_light = "#FEC56D",
-	yellow = "#F5E6D3",
+
+	accent = "#FFC266",
+	orange = "#FFC266",
+	orange_dark = "#D17A2C",
+	orange_light = "#FFD6A5",
+	orange_brand = "#CA6702",
+
+	green = "#C6EF9D",
+	light_green = "#D9F2C7",
+	olive = "#7A916E",
+
 	beige = "#D4A373",
+	seed_brown = "#BFA58A",
+
+	yellow = "#FAF4C8",
 	cream = "#F5E6D3",
 	white = "#F5E6D3",
-	green = "#8BC48B",
-	light_green = "#A8D4A5",
-	olive = "#9B9B7A",
+
+	gray = "#94A3B8",
+	teal = "#3D5F61",
+
+	error = "#E67E22",
+	warn = "#FAF4C8",
+	info = "#C6EF9D",
+	hint = "#94A3B8",
 }
 
 function M.setup()
@@ -36,26 +50,26 @@ function M.setup()
 
 	h("Normal", { fg = M.palette.fg, bg = M.palette.bg })
 	h("NormalFloat", { fg = M.palette.fg, bg = M.palette.bg_secondary })
-	h("Identifier", { fg = M.palette.white })
-	h("@variable", { fg = M.palette.white })
-	h("@variable.parameter", { fg = M.palette.white })
-	h("@variable.member", { fg = M.palette.white })
-	h("@variable.property", { fg = M.palette.white })
+	h("Identifier", { fg = M.palette.olive })
+	h("@variable", { fg = M.palette.fg })
+	h("@variable.parameter", { fg = M.palette.light_green, italic = true })
+	h("@variable.member", { fg = M.palette.olive })
+	h("@variable.property", { fg = M.palette.olive })
 
-	h("Keyword", { fg = M.palette.orange_dark })
-	h("StorageClass", { fg = M.palette.orange_dark })
-	h("Structure", { fg = M.palette.orange_dark })
-	h("PreProc", { fg = M.palette.orange_dark })
-	h("Include", { fg = M.palette.orange_dark })
-	h("@keyword", { fg = M.palette.orange_dark })
-	h("@keyword.function", { fg = M.palette.orange_dark })
-	h("@module", { fg = M.palette.orange_dark })
+	h("Keyword", { fg = M.palette.olive })
+	h("StorageClass", { fg = M.palette.olive })
+	h("Structure", { fg = M.palette.olive })
+	h("PreProc", { fg = M.palette.olive })
+	h("Include", { fg = M.palette.olive })
+	h("@keyword", { fg = M.palette.olive })
+	h("@keyword.function", { fg = M.palette.olive })
+	h("@module", { fg = M.palette.olive })
 
-	h("Conditional", { fg = M.palette.accent, bold = true })
-	h("Repeat", { fg = M.palette.accent, bold = true })
-	h("Statement", { fg = M.palette.accent, bold = true })
-	h("@keyword.control", { fg = M.palette.accent, bold = true })
-	h("@keyword.return", { fg = M.palette.accent, bold = true })
+	h("Conditional", { fg = M.palette.orange_brand, bold = true })
+	h("Repeat", { fg = M.palette.orange_brand, bold = true })
+	h("Statement", { fg = M.palette.orange_brand, bold = true })
+	h("@keyword.control", { fg = M.palette.orange_brand, bold = true })
+	h("@keyword.return", { fg = M.palette.orange_brand, bold = true })
 
 	h("Function", { fg = M.palette.orange })
 	h("@function", { fg = M.palette.orange })
@@ -63,10 +77,10 @@ function M.setup()
 	h("@function.call", { fg = M.palette.orange })
 	h("@method.call", { fg = M.palette.orange })
 
-	h("Type", { fg = M.palette.yellow })
-	h("@type", { fg = M.palette.yellow })
-	h("String", { fg = M.palette.beige })
-	h("@string", { fg = M.palette.beige })
+	h("Type", { fg = M.palette.beige })
+	h("@type", { fg = M.palette.beige })
+	h("String", { fg = M.palette.seed_brown })
+	h("@string", { fg = M.palette.seed_brown })
 	h("Constant", { fg = M.palette.cream })
 	h("@constant", { fg = M.palette.cream })
 	h("@constant.builtin", { fg = M.palette.cream })
@@ -76,8 +90,8 @@ function M.setup()
 	h("@lsp.type.variable.readonly", { fg = M.palette.cream })
 	h("@lsp.typemod.variable.readonly", { fg = M.palette.cream })
 	h("@lsp.typemod.variable.static", { fg = M.palette.cream })
-	h("Number", { fg = M.palette.accent })
-	h("Boolean", { fg = M.palette.accent })
+	h("Number", { fg = M.palette.green })
+	h("Boolean", { fg = M.palette.green })
 	h("@variable", { fg = M.palette.white })
 
 	h("DiagnosticError", { fg = M.palette.accent_secondary })
@@ -155,8 +169,8 @@ function M.setup()
 	h("@punctuation.bracket", { fg = M.palette.fg })
 	h("@punctuation.delimiter", { fg = M.palette.fg })
 	h("@constructor", { fg = M.palette.yellow })
-	h("@property", { fg = M.palette.orange_dark })
-	h("@variable.member", { fg = M.palette.orange_dark })
+	h("@property", { fg = M.palette.olive })
+	h("@variable.member", { fg = M.palette.olive })
 	h("@punctuation.definition.string.begin.html", { fg = M.palette.beige })
 	h("@punctuation.definition.string.end.html", { fg = M.palette.beige })
 
@@ -170,43 +184,43 @@ function M.setup()
 	h("@lsp.type.class", { fg = M.palette.yellow })
 	h("@lsp.type.interface", { fg = M.palette.yellow })
 	h("@lsp.type.type", { fg = M.palette.yellow })
-	h("@lsp.type.parameter", { fg = M.palette.white })
+	h("@lsp.type.parameter", { fg = M.palette.olive })
 	h("@lsp.type.property", { fg = M.palette.orange_dark })
 	h("@lsp.type.enumMember", { fg = M.palette.yellow })
 	h("@lsp.type.function", { fg = M.palette.orange })
 	h("@lsp.type.method", { fg = M.palette.orange })
-	h("@lsp.type.variable", { fg = M.palette.white })
+	h("@lsp.type.variable", { fg = M.palette.olive })
 	h("@lsp.type.keyword", { fg = M.palette.orange_dark })
 
-	h("markdownHeadingDelimiter", { fg = M.palette.green, bold = true })
-	h("markdownCode", { fg = M.palette.yellow })
-	h("markdownCodeBlock", { fg = M.palette.yellow })
+	h("markdownHeadingDelimiter", { fg = M.palette.orange_brand, bold = true })
+	h("markdownCode", { fg = M.palette.beige })
+	h("markdownCodeBlock", { fg = M.palette.beige })
 	h("markdownH1", { fg = M.palette.orange_light, bold = true })
-	h("markdownH2", { fg = M.palette.orange, bold = true })
+	h("markdownH2", { fg = M.palette.orange_brand, bold = true })
 	h("markdownH3", { fg = M.palette.green, bold = true })
-	h("markdownH4", { fg = M.palette.orange_dark, bold = true })
-	h("markdownH5", { fg = M.palette.yellow, bold = true })
+	h("markdownH4", { fg = M.palette.olive, bold = true })
+	h("markdownH5", { fg = M.palette.beige, bold = true })
 	h("markdownH6", { fg = M.palette.comment, bold = true })
 	h("markdownLinkText", { fg = M.palette.light_green })
 	h("markdownUrl", { fg = M.palette.light_green, underline = true })
-	h("@markup.heading", { fg = M.palette.green, bold = true })
+	h("@markup.heading", { fg = M.palette.orange_brand, bold = true })
 	h("@markup.heading.1", { fg = M.palette.orange_light, bold = true })
-	h("@markup.heading.2", { fg = M.palette.orange, bold = true })
+	h("@markup.heading.2", { fg = M.palette.orange_brand, bold = true })
 	h("@markup.heading.3", { fg = M.palette.green, bold = true })
-	h("@markup.heading.4", { fg = M.palette.orange_dark, bold = true })
-	h("@markup.heading.5", { fg = M.palette.yellow, bold = true })
+	h("@markup.heading.4", { fg = M.palette.olive, bold = true })
+	h("@markup.heading.5", { fg = M.palette.beige, bold = true })
 	h("@markup.heading.6", { fg = M.palette.comment, bold = true })
-	h("@markup.list", { fg = M.palette.green })
+	h("@markup.list", { fg = M.palette.orange_brand })
 	h("@markup.link", { fg = M.palette.light_green })
-	h("@markup.link.label", { fg = M.palette.yellow })
+	h("@markup.link.label", { fg = M.palette.beige })
 	h("@markup.link.url", { fg = M.palette.light_green, underline = true })
-	h("@markup.raw", { fg = M.palette.yellow })
-	h("@markup.italic", { fg = M.palette.orange_dark, italic = true })
-	h("@markup.emphasis", { fg = M.palette.orange_dark, italic = true })
-	h("markdownItalic", { fg = M.palette.orange_dark, italic = true })
-	h("markdownItalicDelimiter", { fg = M.palette.orange_dark, italic = true })
-	h("@markup.strong", { fg = M.palette.orange_light, bold = true })
-	h("markdownBold", { fg = M.palette.orange_light, bold = true })
+	h("@markup.raw", { fg = M.palette.beige })
+	h("@markup.italic", { fg = M.palette.olive, italic = true })
+	h("@markup.emphasis", { fg = M.palette.olive, italic = true })
+	h("markdownItalic", { fg = M.palette.olive, italic = true })
+	h("markdownItalicDelimiter", { fg = M.palette.olive, italic = true })
+	h("@markup.strong", { fg = M.palette.orange_brand, bold = true })
+	h("markdownBold", { fg = M.palette.orange_brand, bold = true })
 
 	if package.loaded["lualine"] then
 		require("lualine").setup({ options = { theme = "abacatepay-theme-dev" } })
