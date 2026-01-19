@@ -1,0 +1,47 @@
+<idea-plugin>
+    <id>com.abacatepay.theme</id>
+    <name>AbacatePay Theme</name>
+    <version>1.0.0</version>
+    <vendor email="contato@abacatepay.com" url="https://abacatepay.com">AbacatePay</vendor>
+
+    <description><![CDATA[
+        <h2>AbacatePay Theme</h2>
+        <p>A green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.</p>
+
+        <h3>Available Themes:</h3>
+        <ul>
+            <li><b>AbacatePay Dark</b> - Deep dark theme with vibrant green accents</li>
+            <li><b>AbacatePay Light</b> - Clean light theme with natural green tones</li>
+            <li><b>AbacatePay Soft</b> - Softer dark variant, easier on the eyes</li>
+        </ul>
+
+        <h3>Features:</h3>
+        <ul>
+            <li>Complete UI theming for all IDE components</li>
+            <li>Syntax highlighting optimized for readability</li>
+            <li>Consistent color palette across all variants</li>
+            <li>Support for all JetBrains IDEs</li>
+        </ul>
+
+        <p>For more information, visit our <a href="https://github.com/AbacatePay/vscode-theme">GitHub repository</a>.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <h3>1.0.0</h3>
+        <ul>
+            <li>Initial release</li>
+            <li>Added Dark, Light, and Soft theme variants</li>
+            <li>Complete UI and editor color scheme support</li>
+        </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="231"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.abacatepay.theme.dark" path="/themes/abacatepay-theme-dark.theme.json"/>
+        <themeProvider id="com.abacatepay.theme.light" path="/themes/abacatepay-theme-light.theme.json"/>
+        <themeProvider id="com.abacatepay.theme.soft" path="/themes/abacatepay-theme-soft.theme.json"/>
+    </extensions>
+</idea-plugin>

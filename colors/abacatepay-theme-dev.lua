@@ -1,2 +1,1 @@
-require("abacatepay-theme").setup()
 require("abacatepay-theme.dev").setup()
