@@ -1,13 +1,13 @@
 local M = {}
 
 M.palette = {
-	bg = "#3D3028",
-	bg_secondary = "#4A3F35",
+	bg = "#101213",
+	bg_secondary = "#161819",
 	fg = "#F5E6D3",
 	accent = "#E8A85C",
 	accent_secondary = "#8BC48B",
-	selection = "#5C4A3D",
-	border = "#5C4A3D",
+	selection = "#263238",
+	border = "#1B1B22",
 	comment = "#9B8B7A",
 	orange = "#E8A85C",
 	orange_dark = "#C48A4C",
