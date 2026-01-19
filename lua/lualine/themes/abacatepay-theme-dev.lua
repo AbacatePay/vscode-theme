@@ -1,7 +1,7 @@
 local M = {}
 
 M.normal = {
-	a = { fg = "#101213", bg = "#E8A85C", bold = true },
+	a = { fg = "#101213", bg = "#FEA94C", bold = true },
 	b = { fg = "#F5E6D3", bg = "#161819" },
 	c = { fg = "#F5E6D3", bg = "#101213" },
 }
@@ -25,7 +25,7 @@ M.visual = {
 }
 
 M.replace = {
-	a = { fg = "#101213", bg = "#C48A4C", bold = true },
+	a = { fg = "#101213", bg = "#D4883C", bold = true },
 	b = { fg = "#F5E6D3", bg = "#161819" },
 	c = { fg = "#F5E6D3", bg = "#101213" },
 }
