@@ -1,21 +1,24 @@
 local M = {}
 
 M.palette = {
-	bg = "#1A1612",
-	bg_secondary = "#2A231E",
+	bg = "#1E1914",
+	bg_secondary = "#2D241C",
 	fg = "#FFE5D0",
-	accent = "#F4A261",
-	accent_secondary = "#E76F51",
+	accent = "#FF9F43",
+	accent_secondary = "#C6EF9D",
 	selection = "#3D3228",
 	border = "#3D3228",
 	comment = "#8B8B8B",
-	orange = "#F4A261",
-	orange_dark = "#E07A5F",
-	orange_light = "#FFD6A5",
-	yellow = "#E9C46A",
+	orange = "#FF9F43",
+	orange_dark = "#E67E22",
+	orange_light = "#FFB366",
+	yellow = "#FAF4C8",
 	beige = "#D4A373",
 	cream = "#FAF4C8",
 	white = "#FFE5D0",
+	green = "#C6EF9D",
+	light_green = "#D9F2C7",
+	olive = "#7A916E",
 }
 
 function M.setup()
@@ -84,9 +87,9 @@ function M.setup()
 	h("DiagnosticUnderlineError", { undercurl = true, sp = M.palette.accent_secondary })
 	h("DiagnosticUnderlineWarn", { undercurl = true, sp = M.palette.yellow })
 
-	h("GitSignsAdd", { fg = M.palette.accent })
+	h("GitSignsAdd", { fg = M.palette.green })
 	h("GitSignsChange", { fg = M.palette.yellow })
-	h("GitSignsDelete", { fg = M.palette.accent_secondary })
+	h("GitSignsDelete", { fg = M.palette.orange_dark })
 
 	h("LineNr", { fg = M.palette.border })
 	h("CursorLineNr", { fg = M.palette.accent, bold = true })
@@ -100,10 +103,10 @@ function M.setup()
 	h("TelescopeNormal", { bg = M.palette.bg })
 	h("TelescopeSelection", { bg = M.palette.selection })
 
-	h("CmpItemAbbrMatch", { fg = M.palette.accent, bold = true })
+	h("CmpItemAbbrMatch", { fg = M.palette.green, bold = true })
 	h("CmpItemKindFunction", { fg = M.palette.orange_dark })
-	h("CmpItemKindKeyword", { fg = M.palette.accent })
-	h("CmpItemKindFolder", { fg = M.palette.orange_light })
+	h("CmpItemKindKeyword", { fg = M.palette.green })
+	h("CmpItemKindFolder", { fg = M.palette.light_green })
 	h("CmpItemKindFile", { fg = M.palette.fg })
 
 	h("Special", { fg = M.palette.beige })
@@ -114,39 +117,39 @@ function M.setup()
 	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
 	h("PmenuThumb", { bg = M.palette.comment })
 
-	h("Directory", { fg = M.palette.orange_light })
+	h("Directory", { fg = M.palette.light_green })
 	h("MoreMsg", { fg = M.palette.beige })
 	h("Question", { fg = M.palette.beige })
 	h("Title", { fg = M.palette.beige })
 	h("MsgArea", { fg = M.palette.fg })
 	h("ModeMsg", { fg = M.palette.beige })
 
-	h("AlphaHeader", { fg = M.palette.accent })
-	h("AlphaButtons", { fg = M.palette.accent })
+	h("AlphaHeader", { fg = M.palette.green })
+	h("AlphaButtons", { fg = M.palette.green })
 	h("AlphaShortcut", { fg = M.palette.yellow })
-	h("DashboardHeader", { fg = M.palette.accent })
-	h("DashboardCenter", { fg = M.palette.accent })
+	h("DashboardHeader", { fg = M.palette.green })
+	h("DashboardCenter", { fg = M.palette.green })
 	h("DashboardShortcut", { fg = M.palette.yellow })
 	h("DashboardFooter", { fg = M.palette.orange_dark })
 
-	h("SnacksDashboardHeader", { fg = M.palette.accent })
-	h("SnacksDashboardIcon", { fg = M.palette.accent })
+	h("SnacksDashboardHeader", { fg = M.palette.green })
+	h("SnacksDashboardIcon", { fg = M.palette.green })
 	h("SnacksDashboardKey", { fg = M.palette.yellow })
-	h("SnacksDashboardDesc", { fg = M.palette.accent })
-	h("SnacksDashboardDir", { fg = M.palette.orange_light })
+	h("SnacksDashboardDesc", { fg = M.palette.green })
+	h("SnacksDashboardDir", { fg = M.palette.light_green })
 	h("SnacksDashboardFile", { fg = M.palette.fg })
-	h("SnacksDashboardSpecial", { fg = M.palette.accent })
+	h("SnacksDashboardSpecial", { fg = M.palette.green })
 
-	h("Label", { fg = M.palette.accent })
-	h("SpecialKey", { fg = M.palette.accent })
+	h("Label", { fg = M.palette.green })
+	h("SpecialKey", { fg = M.palette.green })
 
-	h("htmlTag", { fg = M.palette.accent })
-	h("htmlTagName", { fg = M.palette.accent })
+	h("htmlTag", { fg = M.palette.green })
+	h("htmlTagName", { fg = M.palette.green })
 	h("htmlArg", { fg = M.palette.orange_dark })
-	h("htmlEndTag", { fg = M.palette.accent })
+	h("htmlEndTag", { fg = M.palette.green })
 	h("htmlString", { fg = M.palette.beige })
 	h("@tag", { fg = M.palette.yellow })
-	h("@tag.builtin", { fg = M.palette.accent })
+	h("@tag.builtin", { fg = M.palette.green })
 	h("@tag.attribute", { fg = M.palette.orange_dark })
 	h("@tag.delimiter", { fg = M.palette.comment })
 	h("@punctuation.bracket", { fg = M.palette.fg })
@@ -175,28 +178,28 @@ function M.setup()
 	h("@lsp.type.variable", { fg = M.palette.white })
 	h("@lsp.type.keyword", { fg = M.palette.orange_dark })
 
-	h("markdownHeadingDelimiter", { fg = M.palette.accent, bold = true })
+	h("markdownHeadingDelimiter", { fg = M.palette.green, bold = true })
 	h("markdownCode", { fg = M.palette.yellow })
 	h("markdownCodeBlock", { fg = M.palette.yellow })
 	h("markdownH1", { fg = M.palette.orange_light, bold = true })
 	h("markdownH2", { fg = M.palette.orange, bold = true })
-	h("markdownH3", { fg = M.palette.accent, bold = true })
+	h("markdownH3", { fg = M.palette.green, bold = true })
 	h("markdownH4", { fg = M.palette.orange_dark, bold = true })
 	h("markdownH5", { fg = M.palette.yellow, bold = true })
 	h("markdownH6", { fg = M.palette.comment, bold = true })
-	h("markdownLinkText", { fg = M.palette.orange_light })
-	h("markdownUrl", { fg = M.palette.orange_light, underline = true })
-	h("@markup.heading", { fg = M.palette.accent, bold = true })
+	h("markdownLinkText", { fg = M.palette.light_green })
+	h("markdownUrl", { fg = M.palette.light_green, underline = true })
+	h("@markup.heading", { fg = M.palette.green, bold = true })
 	h("@markup.heading.1", { fg = M.palette.orange_light, bold = true })
 	h("@markup.heading.2", { fg = M.palette.orange, bold = true })
-	h("@markup.heading.3", { fg = M.palette.accent, bold = true })
+	h("@markup.heading.3", { fg = M.palette.green, bold = true })
 	h("@markup.heading.4", { fg = M.palette.orange_dark, bold = true })
 	h("@markup.heading.5", { fg = M.palette.yellow, bold = true })
 	h("@markup.heading.6", { fg = M.palette.comment, bold = true })
-	h("@markup.list", { fg = M.palette.accent })
-	h("@markup.link", { fg = M.palette.orange_light })
+	h("@markup.list", { fg = M.palette.green })
+	h("@markup.link", { fg = M.palette.light_green })
 	h("@markup.link.label", { fg = M.palette.yellow })
-	h("@markup.link.url", { fg = M.palette.orange_light, underline = true })
+	h("@markup.link.url", { fg = M.palette.light_green, underline = true })
 	h("@markup.raw", { fg = M.palette.yellow })
 	h("@markup.italic", { fg = M.palette.orange_dark, italic = true })
 	h("@markup.emphasis", { fg = M.palette.orange_dark, italic = true })
