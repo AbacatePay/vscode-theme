@@ -1,14 +1,14 @@
 local M = {}
 
 M.palette = {
-	bg = "#1E1914",
-	bg_secondary = "#2D241C",
+	bg = "#2A1F18",
+	bg_secondary = "#3D2E24",
 	fg = "#FFE5D0",
 	accent = "#FF9F43",
-	accent_secondary = "#C6EF9D",
-	selection = "#3D3228",
-	border = "#3D3228",
-	comment = "#8B8B8B",
+	accent_secondary = "#7AAC5F",
+	selection = "#4A3B2E",
+	border = "#4A3B2E",
+	comment = "#9B8B7A",
 	orange = "#FF9F43",
 	orange_dark = "#E67E22",
 	orange_light = "#FFB366",
@@ -16,9 +16,9 @@ M.palette = {
 	beige = "#D4A373",
 	cream = "#FAF4C8",
 	white = "#FFE5D0",
-	green = "#C6EF9D",
-	light_green = "#D9F2C7",
-	olive = "#7A916E",
+	green = "#7AAC5F",
+	light_green = "#9FD685",
+	olive = "#8B9B6B",
 }
 
 function M.setup()
