@@ -20,7 +20,7 @@ M.palette = {
 
 	orange = "#E6954C",
 	orange_dark = "#D68A3A",
-	orange_light = "#F2B168",
+	orange_light = "#F4B87A",
 	orange_brand = "#E9A05A",
 	peach_whitish = "#F5D4A3",
 }
