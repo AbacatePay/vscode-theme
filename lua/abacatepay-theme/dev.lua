@@ -18,11 +18,11 @@ M.palette = {
 	info = "#8FBC8F",
 	hint = "#94A3B8",
 
-	orange = "#FAD7A0",
-	orange_dark = "#F0C674",
-	orange_light = "#FCE4D6",
-	orange_brand = "#F5CBA7",
-	peach_whitish = "#F8E8C8",
+	orange = "#E6A85C",
+	orange_dark = "#D18B4A",
+	orange_light = "#F0B67F",
+	orange_brand = "#E69F6A",
+	peach_whitish = "#F4D4B3",
 }
 
 function M.setup()
