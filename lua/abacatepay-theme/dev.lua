@@ -22,7 +22,7 @@ M.palette = {
 	orange_dark = "#F57C00",
 	orange_light = "#FFCC80",
 	orange_brand = "#FFA726",
-	peach_whitish = "#FFE5CC",
+	peach_whitish = "#FFE0B2",
 }
 
 function M.setup()

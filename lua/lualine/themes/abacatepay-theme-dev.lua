@@ -1,8 +1,8 @@
 local M = {}
 
 M.normal = {
-	a = { fg = "#101213", bg = "#FFB74D", bold = true },
-	b = { fg = "#FFB74D", bg = "#263238" },
+	a = { fg = "#101213", bg = "#FFE0B2", bold = true },
+	b = { fg = "#FFE0B2", bg = "#263238" },
 	c = { fg = "#ECF0F1", bg = "#101213" },
 }
 
