@@ -3,9 +3,9 @@ local M = {}
 M.palette = {
 	bg = "#101213",
 	fg = "#ECF0F1",
-	green = "#C6EF9D",
-	light_green = "#D9F2C7",
-	olive = "#7A916E",
+	green = "#6B8E23",
+	light_green = "#8FBC8F",
+	olive = "#556B2F",
 	yellow = "#FAF4C8",
 	function_brown = "#D4A373",
 	function_brown_2 = "#8B5A2B",
@@ -15,14 +15,14 @@ M.palette = {
 	seed_brown = "#BFA58A",
 	error = "#E67E22",
 	warn = "#F1E48E",
-	info = "#C6EF9D",
+	info = "#8FBC8F",
 	hint = "#94A3B8",
 
-	orange = "#FFB74D",
-	orange_dark = "#F57C00",
-	orange_light = "#FFCC80",
-	orange_brand = "#FFA726",
-	peach_whitish = "#FFE0B2",
+	orange = "#FAD7A0",
+	orange_dark = "#F0C674",
+	orange_light = "#FCE4D6",
+	orange_brand = "#F5CBA7",
+	peach_whitish = "#F8E8C8",
 }
 
 function M.setup()
