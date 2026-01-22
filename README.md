@@ -47,12 +47,18 @@
   <a href="docs/INTELLIJ.md">
     <img src="assets/icons/intellij.png" width="44" alt="IntelliJ" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="docs/ZED.md">
+    <img src="https://zed.dev/node-assets/zed-logo.svg" width="44" alt="Zed" />
+  </a>
 </p>
 
 <p align="center">
   <a href="docs/NEOVIM.md"><b>Neovim</b></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="docs/INTELLIJ.md"><b>IntelliJ</b></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="docs/ZED.md"><b>Zed</b></a>
 </p>
 
 <br/>

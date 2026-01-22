@@ -11,9 +11,9 @@ Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
 3. Click the **⚙️ Gear icon** next to the scheme selector.
 4. Choose **Import Scheme** → **IntelliJ color scheme (.icls) or JSON (.json)**.
 5. From this repository, select one of the following files:
-   - `intellij/abacatepay-theme-dark.json`
-   - `intellij/abacatepay-theme-light.json`
-   - `intellij/abacatepay-theme-soft.json`
+   - `editors/intellij/abacatepay-theme-dark.json`
+   - `editors/intellij/abacatepay-theme-light.json`
+   - `editors/intellij/abacatepay-theme-soft.json`
 
 6. Click **Apply**, then **OK**.
 

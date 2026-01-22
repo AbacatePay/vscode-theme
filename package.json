@@ -35,37 +35,35 @@
 			{
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Dark Theme",
-				"path": "./themes/abacatepay-theme-dark.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-dark.json"
 			},
 			{
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Dark Italic Theme",
-				"path": "./themes/abacatepay-theme-dark-italic.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-dark-italic.json"
 			},
 			{
 				"uiTheme": "vs",
 				"label": "AbacatePay Light Theme",
-				"path": "./themes/abacatepay-theme-light.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-light.json"
 			},
 			{
 				"uiTheme": "vs",
 				"label": "AbacatePay Light Italic Theme",
-				"path": "./themes/abacatepay-theme-light-italic.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-light-italic.json"
 			},
 			{
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Soft Theme",
-				"path": "./themes/abacatepay-theme-soft.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-soft.json"
 			},
 			{
 				"uiTheme": "vs-dark",
 				"label": "AbacatePay Soft Italic Theme",
-				"path": "./themes/abacatepay-theme-soft-italic.json"
+				"path": "./editors/vscode/themes/abacatepay-theme-soft-italic.json"
 			}
 		]
 	},
-	"module": "index.ts",
-	"type": "module",
 	"private": false,
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.11",
