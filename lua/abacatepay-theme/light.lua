@@ -11,7 +11,7 @@ M.palette = {
 	teal = "#2F4F4F",
 	gray = "#708090",
 	selection = "#E5E5E1",
-	seed_brown = "#8B4513",
+	seed_brown = "#6F4E37",
 	error = "#B22222",
 	warn = "#B8860B",
 	info = "#006400",
@@ -53,8 +53,8 @@ function M.setup()
 	h("@function", { fg = M.palette.function_brown })
 	h("@function.call", { fg = M.palette.function_brown })
 
-	h("Type", { fg = M.palette.yellow })
-	h("@type", { fg = M.palette.yellow })
+	h("Type", { fg = M.palette.teal })
+	h("@type", { fg = M.palette.teal })
 	h("String", { fg = M.palette.seed_brown })
 	h("@string", { fg = M.palette.seed_brown })
 	h("Constant", { fg = M.palette.yellow })
@@ -141,9 +141,9 @@ function M.setup()
 	h("@label.json", { fg = M.palette.yellow })
 	h("@string.special.symbol.json", { fg = M.palette.yellow })
 
-	h("@lsp.type.class", { fg = M.palette.yellow })
-	h("@lsp.type.interface", { fg = M.palette.yellow })
-	h("@lsp.type.type", { fg = M.palette.yellow })
+	h("@lsp.type.class", { fg = M.palette.teal })
+	h("@lsp.type.interface", { fg = M.palette.teal })
+	h("@lsp.type.type", { fg = M.palette.teal })
 	h("@lsp.type.parameter", { fg = M.palette.light_green })
 	h("@lsp.type.property", { fg = M.palette.olive })
 	h("@lsp.type.enumMember", { fg = M.palette.olive })

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.abacatepay.theme</id>
     <name>AbacatePay Theme</name>
-    <version>1.0.0</version>
+    <version>0.1.12</version>
     <vendor email="contato@abacatepay.com" url="https://abacatepay.com">AbacatePay</vendor>
 
     <description><![CDATA[

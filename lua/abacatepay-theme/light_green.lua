@@ -1,7 +1,7 @@
 local M = {}
 
 M.palette = {
-	bg = "#D8EAD8",
+	bg = "#D4E1D4",
 	fg = "#3F4E4F",
 	green = "#4C7A2E",
 	light_green = "#6A994E",
@@ -11,7 +11,7 @@ M.palette = {
 	teal = "#2F4F4F",
 	gray = "#708090",
 	selection = "#C4D6C4",
-	seed_brown = "#8B4513",
+	seed_brown = "#6F4E37",
 	error = "#B22222",
 	warn = "#B8860B",
 	info = "#006400",
@@ -31,7 +31,7 @@ function M.setup()
 	end
 
 	h("Normal", { fg = M.palette.fg, bg = M.palette.bg })
-	h("NormalFloat", { fg = M.palette.fg, bg = "#D0E2D0" })
+	h("NormalFloat", { fg = M.palette.fg, bg = "#C9D9C9" })
 	h("Identifier", { fg = M.palette.fg })
 	h("@variable", { fg = M.palette.fg })
 	h("@variable.parameter", { fg = M.palette.fg })
@@ -53,8 +53,8 @@ function M.setup()
 	h("@function", { fg = M.palette.function_brown })
 	h("@function.call", { fg = M.palette.function_brown })
 
-	h("Type", { fg = M.palette.yellow })
-	h("@type", { fg = M.palette.yellow })
+	h("Type", { fg = M.palette.teal })
+	h("@type", { fg = M.palette.teal })
 	h("String", { fg = M.palette.seed_brown })
 	h("@string", { fg = M.palette.seed_brown })
 	h("Constant", { fg = M.palette.yellow })
@@ -75,14 +75,14 @@ function M.setup()
 	h("LineNr", { fg = "#AAB5AA" })
 	h("CursorLineNr", { fg = M.palette.green, bold = true })
 	h("Visual", { bg = M.palette.selection })
-	h("CursorLine", { bg = "#D0E2D0" })
+	h("CursorLine", { bg = "#C9D9C9" })
 	h("Search", { bg = "#FFE4B5", fg = M.palette.fg })
 
 	h("Special", { fg = M.palette.seed_brown })
 	h("Underlined", { fg = M.palette.seed_brown, underline = true })
 	h("MatchParen", { bg = M.palette.selection, fg = M.palette.yellow, bold = true })
 	h("WildMenu", { bg = M.palette.selection, fg = M.palette.fg })
-	h("Pmenu", { bg = "#D0E2D0", fg = M.palette.fg })
+	h("Pmenu", { bg = "#C9D9C9", fg = M.palette.fg })
 	h("PmenuSel", { bg = M.palette.selection, fg = M.palette.fg })
 	h("PmenuThumb", { bg = M.palette.gray })
 
@@ -141,9 +141,9 @@ function M.setup()
 	h("@label.json", { fg = M.palette.yellow })
 	h("@string.special.symbol.json", { fg = M.palette.yellow })
 
-	h("@lsp.type.class", { fg = M.palette.yellow })
-	h("@lsp.type.interface", { fg = M.palette.yellow })
-	h("@lsp.type.type", { fg = M.palette.yellow })
+	h("@lsp.type.class", { fg = M.palette.teal })
+	h("@lsp.type.interface", { fg = M.palette.teal })
+	h("@lsp.type.type", { fg = M.palette.teal })
 	h("@lsp.type.parameter", { fg = M.palette.light_green })
 	h("@lsp.type.property", { fg = M.palette.olive })
 	h("@lsp.type.enumMember", { fg = M.palette.olive })

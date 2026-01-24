@@ -1,10 +1,15 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij.platform") version "2.2.1"
+    id("org.jetbrains.intellij.platform") version "2.10.5"
 }
 
 group = "com.abacatepay"
-version = "1.0.0"
+version = "0.1.12"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
 
 repositories {
     mavenCentral()
@@ -16,7 +21,6 @@ repositories {
 dependencies {
     intellijPlatform {
         intellijIdeaCommunity("2023.3")
-        instrumentationTools()
     }
 }
 
