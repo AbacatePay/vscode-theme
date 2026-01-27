@@ -9,8 +9,3 @@
 
 !themes/**
 !themes/*.json
-
-!assets/**
-!assets/*.png
-!assets/*.jpg
-!assets/*.jpeg

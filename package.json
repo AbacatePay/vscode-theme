@@ -77,7 +77,7 @@
 		"url": "https://github.com/AbacatePay/vscode-theme"
 	},
 	"license": "MIT",
-	"icon": "assets/logo.png",
+	"icon": "icon.png",
 	"homepage": "https://github.com/AbacatePay/vscode-theme",
 	"keywords": [
 		"theme",

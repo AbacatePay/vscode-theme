@@ -1,10 +1,14 @@
-<h1 align="center">AbacatePay Theme for Neovim</h1>
+<div align="center">
 
-<p align="center">Green-first color scheme for Neovim, inspired by the AbacatePay visual identity.</p>
+# AbacatePay Theme for Neovim 🥑
 
-<h2 align="center">Installation</h2>
+Green-first color scheme for *Neovim*, inspired by the *AbacatePay* visual identity.
 
-<p align="center"><a href="https://github.com/folke/lazy.nvim">lazy.nvim</a></p>
+## Installation
+
+[lazy.nvim](https://github.com/folke/lazy.nvim)
+
+</div>
 
 ```lua
 {
@@ -30,9 +34,13 @@ use({
 })
 ```
 
-<h2 align="center">Configuration</h2>
+<div align="center">
 
-<p align="center">The theme comes with sensible defaults. To apply the theme manually or in your init file</p>
+## Configuration
+
+The theme comes with sensible defaults. To apply the theme manually or in your init file.
+
+</div>
 
 ```lua
 vim.cmd("colorscheme abacatepay-theme")
