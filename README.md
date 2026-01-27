@@ -4,7 +4,7 @@
 
 <p align="center">
   <img
-    src="assets/darkmode.png"
+    src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769525094/darkmode_vghoai.png"
     alt="AbacatePay Dark Theme"
     width="1200"
     style="
