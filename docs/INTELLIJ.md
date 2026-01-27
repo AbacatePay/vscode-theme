@@ -1,10 +1,11 @@
-<h1 align="center">AbacatePay Theme for IntelliJ</h1>
+<div align="center">
 
-<p align="center">
+# AbacatePay Theme for IntelliJ 🥑
+
 Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
-</p>
 
-<h2 align="center">Installation</h2>
+## Installation
+</div>
 
 1. Open your IntelliJ IDE.
 2. Go to **Settings / Preferences** → **Editor** → **Color Scheme**.
@@ -17,9 +18,10 @@ Green-first theme for IntelliJ IDEs, based on the AbacatePay visual identity.
 
 6. Click **Apply**, then **OK**.
 
----
+<div align="center">
 
 ## Notes
+</div>
 
-- Tested on IntelliJ IDEA (should work on other JetBrains IDEs).
+- Tested on IntelliJ IDEA (Should work on other JetBrains IDEs).
 - No plugin installation required.
