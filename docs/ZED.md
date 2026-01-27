@@ -1,3 +1,5 @@
+<div align="center">
+
 # AbacatePay Theme for Zed 🥑
 
 A green-first theme designed for AbacatePay, now available for Zed.
@@ -7,6 +9,8 @@ A green-first theme designed for AbacatePay, now available for Zed.
 ### Local Development (Manual)
 
 To use this theme locally before it is officially available in the Zed marketplace:
+
+</div>
 
 1. Clone this repository.
 2. Open Zed and go to the extensions directory:
@@ -19,12 +23,20 @@ To use this theme locally before it is officially available in the Zed marketpla
 4. Restart Zed or reload the extensions.
 5. Open the Theme Selector (`Cmd+K Cmd+T` or `Ctrl+K Ctrl+T`) and search for **AbacatePay**.
 
+<div align="center">
+
 ## Publishing to the Marketplace
 
 To make this theme available for everyone in the Zed Marketplace, you need to submit it to the [Zed Extensions repository](https://github.com/zed-industries/extensions).
+
+</div>
 
 1. Fork `zed-industries/extensions`.
 2. Add the `abacatepay-theme` directory from `editors/zed` to the `extensions/` folder in your fork.
 3. Submit a Pull Request.
 
+<div align="center">
+
 More details can be found in the [Zed Extension Documentation](https://zed.dev/docs/extensions).
+
+</div>
