@@ -2,7 +2,7 @@
 	"name": "abacatepay-theme",
 	"displayName": "AbacatePay Theme",
 	"description": "A green-first VS Code theme designed for AbacatePay.",
-	"version": "0.1.12",
+	"version": "0.1.13",
 	"publisher": "abacatepay",
 	"engines": {
 		"vscode": "^1.74.0"
