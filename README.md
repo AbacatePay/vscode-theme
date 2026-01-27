@@ -37,7 +37,7 @@
 
 <h2 align="center">Use in your favorite editors</h2>
 
-<p align="center">Select your favorite editor to view the instructions and start using AbacatePay Theme.</p>
+<p align="center">Select your favorite editor to view the instructions and start using <i>AbacatePay Theme</i>.</p>
 
 <p align="center">
   <a href="docs/NEOVIM.md">
@@ -49,7 +49,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="docs/ZED.md">
-    <img src="https://zed.dev/node-assets/zed-logo.svg" width="44" alt="Zed" />
+    <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769525515/logo_wordmark_white_bigger.4f0b8599_zqoaxu.png" width="44" alt="Zed" />
   </a>
 </p>
 
