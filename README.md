@@ -41,11 +41,11 @@
 
 <p align="center">
   <a href="docs/NEOVIM.md">
-    <img src="assets/icons/nvim.png" width="44" alt="Neovim" />
+    <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769524773/nvim_nsytoy.png" width="44" alt="Neovim" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="docs/INTELLIJ.md">
-    <img src="assets/icons/intellij.png" width="44" alt="IntelliJ" />
+    <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769524774/intellij_nxrasu.png" width="44" alt="IntelliJ" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="docs/ZED.md">
