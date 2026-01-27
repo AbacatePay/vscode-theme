@@ -7,5 +7,4 @@
 !LICENSE.md
 !icon.png
 
-!themes/**
-!themes/*.json
+!editors/vscode/themes/*.json
