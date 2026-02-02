@@ -67,5 +67,5 @@
   Originally created by
   <em><a href="https://www.eualmeida.com.br/">almeida</a></em>
   and
-  <em><a href="https://github.com/albuquerquesz">albuquerque</a></em>
+  <em><a href="https://me.albuquerquesz.com.br/">albuquerque</a></em>
 </p>
