@@ -40,25 +40,25 @@
 <p align="center">Select your favorite editor to view the instructions and start using <i>AbacatePay Theme</i>.</p>
 
 <p align="center">
-  <a href="docs/NEOVIM.md">
+  <a href="https://docs.abacatepay.com/pages/ecosystem/theme#neovim">
     <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769524773/nvim_nsytoy.png" width="44" alt="Neovim" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="docs/INTELLIJ.md">
+  <a href="https://docs.abacatepay.com/pages/ecosystem/theme#intellij-%2F-jetbrains-ides">
     <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769524774/intellij_nxrasu.png" width="44" alt="IntelliJ" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="docs/ZED.md">
+  <a href="https://docs.abacatepay.com/pages/ecosystem/theme#zed">
     <img src="https://res.cloudinary.com/dlshuvo4u/image/upload/v1769525515/logo_wordmark_white_bigger.4f0b8599_zqoaxu.png" width="44" alt="Zed" />
   </a>
 </p>
 
 <p align="center">
-  <a href="docs/NEOVIM.md"><b>Neovim</b></a>
+  <a href="https://docs.abacatepay.com/pages/ecosystem/theme#neovim"><b>Neovim</b></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="docs/INTELLIJ.md"><b>IntelliJ</b></a>
+  <a href="https://docs.abacatepay.com/pages/ecosystem/theme#intellij-%2F-jetbrains-ides"><b>IntelliJ</b></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="docs/ZED.md"><b>Zed</b></a>
+  <a href="dohttps://docs.abacatepay.com/pages/ecosystem/theme#zed"><b>Zed</b></a>
 </p>
 
 <br/>
