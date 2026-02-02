@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=abacatepay.abacatepay-theme" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/abacatepay.abacatepay-theme.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+</p>
+
+<p align="center">
   <sub>
     <samp>
       Font · <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a><br/>
